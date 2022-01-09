@@ -1,0 +1,4 @@
+LED #,LED PWM (%),LED current (%),Duration (s)
+1,100,100,3
+1,50,100,3
+1,100,10,3
