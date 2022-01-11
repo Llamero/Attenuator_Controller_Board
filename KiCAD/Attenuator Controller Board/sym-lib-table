@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Attenuator-Controller-Board-rescue)(type Legacy)(uri "${KIPRJMOD}/Attenuator Controller Board-rescue.lib")(options "")(descr ""))
+)

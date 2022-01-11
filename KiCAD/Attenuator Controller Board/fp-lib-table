@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Custom Footprints")(type KiCad)(uri "C:/Users/Ben/Documents/GitHub/Attenuator_Controller_Board/KiCAD/Custom Parts/KiCAD/Footprint/Custom Footprints.pretty")(options "")(descr ""))
+)
