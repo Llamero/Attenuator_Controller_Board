@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Attenuator-Controller-Board-rescue)(type Legacy)(uri "${KIPRJMOD}/Attenuator Controller Board-rescue.lib")(options "")(descr ""))
   (lib (name Custom_parts)(type Legacy)(uri "C:/Users/Ben/Documents/GitHub/Four_Channel_MHz_LED_Driver/KiCAD/Custom Parts/KiCAD/Symbol/Custom_parts.lib")(options "")(descr ""))
+  (lib (name High-current-4x1-LED-mux-rescue)(type Legacy)(uri "C:/Users/Ben/Documents/GitHub/High current LED mux/High current 4x1 LED mux/High current 4x1 LED mux-rescue.lib")(options "")(descr ""))
 )
