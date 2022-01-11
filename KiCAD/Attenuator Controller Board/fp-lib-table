@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "Custom Footprints")(type KiCad)(uri "C:/Users/Ben/Documents/GitHub/Attenuator_Controller_Board/KiCAD/Custom Parts/KiCAD/Footprint/Custom Footprints.pretty")(options "")(descr ""))
+  (lib (name "Four Channel MHz LED Driver")(type KiCad)(uri "C:/Users/Ben/Documents/GitHub/Four_Channel_MHz_LED_Driver/KiCAD/Four Channel MHz LED Driver.pretty")(options "")(descr ""))
 )
