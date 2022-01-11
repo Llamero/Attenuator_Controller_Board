@@ -1,4 +1,4 @@
-18741018037430162
+18742659950514450
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -48959,6 +48959,13 @@ DC-jack_54-00165
 3
 Custom Footprints
 DO-214AA
+
+
+0
+2
+2
+Custom Footprints
+DO-214BA
 
 
 0

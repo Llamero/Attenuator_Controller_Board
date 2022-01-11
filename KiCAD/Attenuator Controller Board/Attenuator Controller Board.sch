@@ -451,7 +451,7 @@ F 3 "" H 8350 6650 50  0001 C CNN
 $EndComp
 Text Label 9600 6650 0    50   ~ 0
 Motor(-)
-Text Label 9600 6750 0    50   ~ 0
+Text Label 10950 6750 0    50   ~ 0
 5V
 Text Label 11500 1400 2    50   ~ 0
 Gate1-2
@@ -1081,4 +1081,73 @@ Text Label 13800 3400 0    50   ~ 0
 NC35
 Text Label 13800 3500 0    50   ~ 0
 NC34
+$Comp
+L Device:C_Small C10
+U 1 1 620BEBA5
+P 10550 6850
+F 0 "C10" H 10350 6900 50  0000 L CNN
+F 1 "10µF" H 10300 6750 50  0000 L CNN
+F 2 "Custom Footprints:0508_Capacitor" H 10550 6850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/taiyo-yuden/LWK212BJ106MD-T/2763363" H 10550 6850 50  0001 C CNN
+F 4 "Taiyo Yuden" H 10550 6850 50  0001 C CNN "Manufacturer"
+F 5 "LWK212BJ106MD-T" H 10550 6850 50  0001 C CNN "Part #"
+	1    10550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 620C1117
+P 10200 6850
+F 0 "C9" H 10000 6900 50  0000 L CNN
+F 1 "10µF" H 9950 6750 50  0000 L CNN
+F 2 "Custom Footprints:0508_Capacitor" H 10200 6850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/taiyo-yuden/LWK212BJ106MD-T/2763363" H 10200 6850 50  0001 C CNN
+F 4 "Taiyo Yuden" H 10200 6850 50  0001 C CNN "Manufacturer"
+F 5 "LWK212BJ106MD-T" H 10200 6850 50  0001 C CNN "Part #"
+	1    10200 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 6750 10200 6750
+$Comp
+L power:GND #PWR0101
+U 1 1 620C5042
+P 10200 6950
+F 0 "#PWR0101" H 10200 6700 50  0001 C CNN
+F 1 "GND" H 10205 6777 50  0000 C CNN
+F 2 "" H 10200 6950 50  0001 C CNN
+F 3 "" H 10200 6950 50  0001 C CNN
+	1    10200 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 620C5B03
+P 10550 6950
+F 0 "#PWR0102" H 10550 6700 50  0001 C CNN
+F 1 "GND" H 10555 6777 50  0000 C CNN
+F 2 "" H 10550 6950 50  0001 C CNN
+F 3 "" H 10550 6950 50  0001 C CNN
+	1    10550 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 10200 6750
+Connection ~ 10550 6750
+Wire Wire Line
+	10550 6750 10650 6750
+Wire Wire Line
+	10200 6750 10550 6750
+$Comp
+L Device:D_Schottky D2
+U 1 1 620CBB13
+P 10800 6750
+F 0 "D2" H 10800 6967 50  0000 C CNN
+F 1 "D_Schottky" H 10800 6876 50  0000 C CNN
+F 2 "Custom Footprints:DO-214BA" H 10800 6750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Microsemi%20PDFs/LSM115J.pdf" H 10800 6750 50  0001 C CNN
+F 4 "Microchip Technology" H 10800 6750 50  0001 C CNN "Manufacturer"
+F 5 "LSM115JE3/TR13" H 10800 6750 50  0001 C CNN "Part #"
+	1    10800 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
