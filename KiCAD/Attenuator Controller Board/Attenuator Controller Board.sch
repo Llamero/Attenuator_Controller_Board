@@ -348,7 +348,7 @@ F 5 "CL10B104KB8NNNL" H 8200 8000 50  0001 C CNN "Part #"
 $EndComp
 Text Label 9650 8600 0    50   ~ 0
 RS-232_TXD1
-Text Label 9650 9100 0    50   ~ 0
+Text Label 9650 9300 0    50   ~ 0
 RS-232_RXD1
 Text Label 13850 1500 0    50   ~ 0
 3v3
@@ -630,7 +630,7 @@ Text Label 8400 8900 2    50   ~ 0
 Motor1
 Text Label 8400 9000 2    50   ~ 0
 Motor2
-Text Label 9650 9300 0    50   ~ 0
+Text Label 9650 9100 0    50   ~ 0
 RS-232_RXD3
 Text Label 8400 9300 2    50   ~ 0
 Serial3-RX
