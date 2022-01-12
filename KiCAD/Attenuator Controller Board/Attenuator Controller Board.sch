@@ -672,10 +672,6 @@ Text Label 8400 8400 2    50   ~ 0
 Enable
 Text Label 8400 8500 2    50   ~ 0
 Shutdown
-Text Label 11500 3300 2    50   ~ 0
-Enable
-Text Label 11500 3400 2    50   ~ 0
-Shutdown
 Text Label 11500 1800 2    50   ~ 0
 Limit_Switch
 Text Label 10050 1950 2    50   ~ 0
