@@ -308,7 +308,7 @@ F 3 "" H 12300 6100 50  0001 C CNN
 $EndComp
 Text Label 12300 6300 2    50   ~ 0
 Limit_Switch
-Text Label 9600 6850 0    50   ~ 0
+Text Label 9600 6650 0    50   ~ 0
 Motor(+)
 Text Label 12300 6700 2    50   ~ 0
 Motor(-)
@@ -447,13 +447,13 @@ F 3 "" H 8350 6650 50  0001 C CNN
 	1    8350 6650
 	0    1    1    0   
 $EndComp
-Text Label 9600 6650 0    50   ~ 0
+Text Label 9600 6850 0    50   ~ 0
 Motor(-)
 Text Label 10950 6750 0    50   ~ 0
 5V
-Text Label 8350 6850 2    50   ~ 0
-Gate1-2
 Text Label 8350 6550 2    50   ~ 0
+Gate1-2
+Text Label 8350 6850 2    50   ~ 0
 Gate3-4
 Wire Wire Line
 	8350 6550 8350 6250
@@ -671,10 +671,6 @@ Text Label 11500 2700 2    50   ~ 0
 Text Label 8400 8400 2    50   ~ 0
 Enable
 Text Label 8400 8500 2    50   ~ 0
-Shutdown
-Text Label 11500 3300 2    50   ~ 0
-Enable
-Text Label 11500 3400 2    50   ~ 0
 Shutdown
 Text Label 11500 1800 2    50   ~ 0
 Limit_Switch
