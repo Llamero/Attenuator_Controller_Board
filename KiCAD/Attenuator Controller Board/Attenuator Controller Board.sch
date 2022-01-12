@@ -352,8 +352,6 @@ Text Label 9650 9300 0    50   ~ 0
 RS-232_RXD1
 Text Label 13850 1500 0    50   ~ 0
 3v3
-Text Label 11500 3100 2    50   ~ 0
-Serial1-RX
 Text Label 11500 3000 2    50   ~ 0
 Serial1-TX
 $Comp
@@ -415,7 +413,7 @@ F 5 "K202XHT-E9P-N" H 13500 8050 50  0001 C CNN "Part #"
 $EndComp
 Text Label 8400 8600 2    50   ~ 0
 Serial1-TX
-Text Label 8400 9100 2    50   ~ 0
+Text Label 8400 9300 2    50   ~ 0
 Serial1-RX
 Text Label 11500 2300 2    50   ~ 0
 Serial2-RX
@@ -453,10 +451,6 @@ Text Label 9600 6650 0    50   ~ 0
 Motor(-)
 Text Label 10950 6750 0    50   ~ 0
 5V
-Text Label 11500 1400 2    50   ~ 0
-Gate1-2
-Text Label 11500 1500 2    50   ~ 0
-Gate3-4
 Text Label 8350 6850 2    50   ~ 0
 Gate1-2
 Text Label 8350 6550 2    50   ~ 0
@@ -632,7 +626,7 @@ Text Label 8400 9000 2    50   ~ 0
 Motor2
 Text Label 9650 9100 0    50   ~ 0
 RS-232_RXD3
-Text Label 8400 9300 2    50   ~ 0
+Text Label 8400 9100 2    50   ~ 0
 Serial3-RX
 NoConn ~ 14700 8850
 NoConn ~ 14700 8750
@@ -678,15 +672,15 @@ Text Label 8400 8400 2    50   ~ 0
 Enable
 Text Label 8400 8500 2    50   ~ 0
 Shutdown
-Text Label 11500 1600 2    50   ~ 0
+Text Label 11500 3300 2    50   ~ 0
 Enable
-Text Label 11500 1700 2    50   ~ 0
+Text Label 11500 3400 2    50   ~ 0
 Shutdown
 Text Label 11500 1800 2    50   ~ 0
 Limit_Switch
-Text Label 11500 1900 2    50   ~ 0
+Text Label 10050 1950 2    50   ~ 0
 Encoder(A)
-Text Label 11500 2000 2    50   ~ 0
+Text Label 9950 2050 2    50   ~ 0
 Encoder(B)
 Text Label 12300 6500 2    50   ~ 0
 Motor(+)
@@ -705,7 +699,7 @@ F 3 "" H 11600 6900 50  0001 C CNN
 	1    11600 6900
 	0    1    1    0   
 $EndComp
-Text Label 11500 3500 2    50   ~ 0
+Text Label 13800 3600 0    50   ~ 0
 Ident(-)
 $Comp
 L Device:C_Small C2
@@ -803,7 +797,7 @@ F 3 "" H 8650 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 9400 5400 0    50   ~ 0
-3.3V
+3v3
 Wire Wire Line
 	8900 2850 8900 2950
 $Comp
@@ -855,7 +849,7 @@ $EndComp
 Text Label 9150 2750 0    50   ~ 0
 5V
 Text Label 9400 5600 0    50   ~ 0
-3.3V
+3v3
 $Comp
 L power:GND #PWR06
 U 1 1 61F7823E
@@ -871,9 +865,9 @@ Text Label 9400 5200 0    50   ~ 0
 Analog_Input1
 Text Label 8650 5600 2    50   ~ 0
 Analog_Input2
-Text Label 13800 3600 0    50   ~ 0
+Text Label 13800 3500 0    50   ~ 0
 Analog_Input1
-Text Label 11500 3600 2    50   ~ 0
+Text Label 13800 3400 0    50   ~ 0
 Analog_Input2
 $Comp
 L power:GND #PWR08
@@ -921,19 +915,6 @@ $EndComp
 $Comp
 L Device:R_Pack04_Split RN1
 U 1 1 61FBFC7D
-P 8750 3700
-F 0 "RN1" V 8650 3700 50  0000 C CNN
-F 1 "4.7k" V 8750 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8670 3700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 8750 3700 50  0001 C CNN
-F 4 "Panasonic Electronic Components" V 8750 3700 50  0001 C CNN "Manufacturer"
-F 5 "EXB-38V472JV" V 8750 3700 50  0001 C CNN "Part #"
-	1    8750 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split RN1
-U 2 1 61FC4641
 P 8750 4250
 F 0 "RN1" V 8650 4250 50  0000 C CNN
 F 1 "4.7k" V 8750 4250 50  0000 C CNN
@@ -941,7 +922,20 @@ F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8670 4250 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 8750 4250 50  0001 C CNN
 F 4 "Panasonic Electronic Components" V 8750 4250 50  0001 C CNN "Manufacturer"
 F 5 "EXB-38V472JV" V 8750 4250 50  0001 C CNN "Part #"
-	2    8750 4250
+	1    8750 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1
+U 2 1 61FC4641
+P 8750 3700
+F 0 "RN1" V 8650 3700 50  0000 C CNN
+F 1 "4.7k" V 8750 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8670 3700 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 8750 3700 50  0001 C CNN
+F 4 "Panasonic Electronic Components" V 8750 3700 50  0001 C CNN "Manufacturer"
+F 5 "EXB-38V472JV" V 8750 3700 50  0001 C CNN "Part #"
+	2    8750 3700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -955,7 +949,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 F 4 "Panasonic Electronic Components" V 11750 6900 50  0001 C CNN "Manufacturer"
 F 5 "EXB-38V472JV" V 11750 6900 50  0001 C CNN "Part #"
 	3    11750 6900
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
@@ -1039,10 +1033,6 @@ Text Label 11500 2900 2    50   ~ 0
 NC25
 Text Label 11500 3200 2    50   ~ 0
 NC28
-Text Label 11500 3300 2    50   ~ 0
-NC29
-Text Label 11500 3400 2    50   ~ 0
-NC30
 Text Label 13800 1600 0    50   ~ 0
 NC23
 Text Label 13800 1700 0    50   ~ 0
@@ -1077,10 +1067,6 @@ Text Label 13800 3200 0    50   ~ 0
 NC37
 Text Label 13800 3300 0    50   ~ 0
 NC36
-Text Label 13800 3400 0    50   ~ 0
-NC35
-Text Label 13800 3500 0    50   ~ 0
-NC34
 $Comp
 L Device:C_Small C10
 U 1 1 620BEBA5
@@ -1150,4 +1136,38 @@ F 5 "LSM115JE3/TR13" H 10800 6750 50  0001 C CNN "Part #"
 	1    10800 6750
 	1    0    0    -1  
 $EndComp
+Text Label 11500 2000 2    50   ~ 0
+Motor1
+Text Label 11500 1900 2    50   ~ 0
+Motor2
+Text Label 11500 1400 2    50   ~ 0
+Serial1-RX
+Text Label 11500 3100 2    50   ~ 0
+NC27
+Text Label 11500 1500 2    50   ~ 0
+NC1
+Text Label 11500 1600 2    50   ~ 0
+NC2
+Text Label 11500 1700 2    50   ~ 0
+NC3
+Wire Wire Line
+	8400 8500 8000 8500
+Wire Wire Line
+	8400 8400 8000 8400
+Wire Wire Line
+	8000 8400 8000 8500
+$Comp
+L power:GND #PWR0103
+U 1 1 61E59326
+P 7900 8500
+F 0 "#PWR0103" H 7900 8250 50  0001 C CNN
+F 1 "GND" H 7905 8327 50  0000 C CNN
+F 2 "" H 7900 8500 50  0001 C CNN
+F 3 "" H 7900 8500 50  0001 C CNN
+	1    7900 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 8500 7900 8500
+Connection ~ 8000 8500
 $EndSCHEMATC
