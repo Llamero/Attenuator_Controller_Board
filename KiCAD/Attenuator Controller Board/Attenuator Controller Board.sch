@@ -49,7 +49,7 @@ F 3 "" H 13800 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:Teensy3.6-Custom_parts U3
+L Attenuator-Controller-Board-rescue:Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue U3
 U 1 1 61E48BF3
 P 12650 3450
 F 0 "U3" H 12650 5887 60  0000 C CNN
@@ -164,7 +164,7 @@ Wire Wire Line
 Wire Wire Line
 	13800 1300 14550 1300
 $Comp
-L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts J9
+L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue J9
 U 1 1 61E48BF4
 P 14750 2400
 F 0 "J9" H 14600 3550 50  0000 L CNN
@@ -226,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 2700 10750 2700
 $Comp
-L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts J4
+L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue J4
 U 1 1 61E48BF8
 P 10550 2400
 F 0 "J4" H 10400 3550 50  0000 L CNN
@@ -276,7 +276,7 @@ F 3 "~" H 13450 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:DSub_15_HD_-_200-015-263R001-Custom_parts J5
+L Attenuator-Controller-Board-rescue:DSub_15_HD_-_200-015-263R001-Custom_parts-Attenuator-Controller-Board-rescue J5
 U 1 1 61DCB380
 P 12300 6100
 F 0 "J5" H 12828 5453 60  0000 L CNN
@@ -351,11 +351,11 @@ RS-232_TXD1
 Text Label 9650 9300 0    50   ~ 0
 RS-232_RXD1
 Text Label 13850 1500 0    50   ~ 0
-3v3
+NC3v3
 Text Label 11500 3000 2    50   ~ 0
 Serial1-TX
 $Comp
-L Attenuator-Controller-Board-rescue:K202XHT-E9P-N-Custom_parts J6
+L Attenuator-Controller-Board-rescue:K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue J6
 U 1 1 61DE6B05
 P 12300 8050
 F 0 "J6" H 12828 7703 60  0000 L CNN
@@ -399,7 +399,7 @@ F 3 "" H 13500 8450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:K202XHT-E9P-N-Custom_parts J7
+L Attenuator-Controller-Board-rescue:K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue J7
 U 1 1 61E2A63C
 P 13500 8050
 F 0 "J7" H 14028 7703 60  0000 L CNN
@@ -424,7 +424,7 @@ Serial2-TX
 Text Label 8400 9200 2    50   ~ 0
 Serial2-RX
 $Comp
-L Attenuator-Controller-Board-rescue:ZXMHC3A01T8TA-Custom_parts U2
+L Attenuator-Controller-Board-rescue:ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue U2
 U 1 1 61E4F5F5
 P 8450 6500
 F 0 "U2" H 8975 6707 60  0000 C CNN
@@ -464,7 +464,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 6750 8350 6850
 $Comp
-L Attenuator-Controller-Board-rescue:ADM3307EARU-REEL7-Custom_parts U1
+L Attenuator-Controller-Board-rescue:ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue U1
 U 1 1 61E61C14
 P 8400 8000
 F 0 "U1" H 9025 8257 60  0000 C CNN
@@ -650,7 +650,7 @@ F 3 "" H 14700 8450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:K202XHT-E9P-N-Custom_parts J8
+L Attenuator-Controller-Board-rescue:K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue J8
 U 1 1 61DD8259
 P 14700 8050
 F 0 "J8" H 15228 7703 60  0000 L CNN
@@ -672,11 +672,11 @@ Text Label 8400 8400 2    50   ~ 0
 Enable
 Text Label 8400 8500 2    50   ~ 0
 Shutdown
-Text Label 11500 1800 2    50   ~ 0
+Text Label 11500 3300 2    50   ~ 0
 Limit_Switch
-Text Label 10050 1950 2    50   ~ 0
+Text Label 11500 3500 2    50   ~ 0
 Encoder(A)
-Text Label 9950 2050 2    50   ~ 0
+Text Label 11500 3600 2    50   ~ 0
 Encoder(B)
 Text Label 12300 6500 2    50   ~ 0
 Motor(+)
@@ -876,9 +876,9 @@ F 3 "" H 9100 3900 50  0001 C CNN
 $EndComp
 Text Label 8600 3700 2    50   ~ 0
 Analog_Input1
-Text Label 11500 3500 2    50   ~ 0
+Text Label 11500 3400 2    50   ~ 0
 Alarm1
-Text Label 11500 3600 2    50   ~ 0
+Text Label 11500 3200 2    50   ~ 0
 Alarm2
 $Comp
 L power:GND #PWR09
@@ -1023,8 +1023,6 @@ Wire Wire Line
 	11500 3300 10750 3300
 Text Label 11500 2800 2    50   ~ 0
 NC24
-Text Label 11500 3200 2    50   ~ 0
-NC28
 Text Label 13800 1600 0    50   ~ 0
 NC23
 Text Label 13800 1700 0    50   ~ 0
@@ -1134,8 +1132,6 @@ Text Label 11500 1900 2    50   ~ 0
 Motor2
 Text Label 11500 1400 2    50   ~ 0
 Serial1-RX
-Text Label 11500 3100 2    50   ~ 0
-NC27
 Text Label 11500 1500 2    50   ~ 0
 NC1
 Text Label 11500 1600 2    50   ~ 0
@@ -1162,8 +1158,16 @@ $EndComp
 Wire Wire Line
 	8000 8500 7900 8500
 Connection ~ 8000 8500
-Text Label 11500 2900 2    50   ~ 0
+Text Label 11500 3100 2    50   ~ 0
 Ident-Vcc
 Text Label 12300 7000 2    50   ~ 0
 Ident-Vcc
+Text Label 11500 2900 2    50   ~ 0
+NC25
+Text Label 11500 2500 2    50   ~ 0
+NC11
+Text Label 11500 2600 2    50   ~ 0
+NC12
+Text Label 11500 1800 2    50   ~ 0
+NC4
 $EndSCHEMATC
