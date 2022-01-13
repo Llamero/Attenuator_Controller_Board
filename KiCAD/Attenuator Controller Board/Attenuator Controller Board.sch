@@ -680,8 +680,6 @@ Text Label 9950 2050 2    50   ~ 0
 Encoder(B)
 Text Label 12300 6500 2    50   ~ 0
 Motor(+)
-Text Label 12300 7000 2    50   ~ 0
-3v3
 Wire Wire Line
 	12300 6900 11900 6900
 $Comp
@@ -769,7 +767,7 @@ $EndComp
 Wire Wire Line
 	13800 3000 14550 3000
 $Comp
-L Custom_parts:BAT54BRW D1
+L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts D1
 U 1 1 5F7E5C45
 P 8850 5300
 F 0 "D1" H 9025 5647 60  0000 C CNN
@@ -830,7 +828,7 @@ Alarm2
 Text Notes 13900 6650 0    59   ~ 0
 Audible alarm
 $Comp
-L Custom_parts:CPT-2016-75-SMT-TR BZ1
+L Attenuator-Controller-Board-rescue:CPT-2016-75-SMT-TR-Custom_parts BZ1
 U 1 1 5FE01F50
 P 14450 6900
 F 0 "BZ1" H 14450 7100 60  0000 L CNN
@@ -878,9 +876,9 @@ F 3 "" H 9100 3900 50  0001 C CNN
 $EndComp
 Text Label 8600 3700 2    50   ~ 0
 Analog_Input1
-Text Label 11500 2500 2    50   ~ 0
+Text Label 11500 3500 2    50   ~ 0
 Alarm1
-Text Label 11500 2600 2    50   ~ 0
+Text Label 11500 3600 2    50   ~ 0
 Alarm2
 $Comp
 L power:GND #PWR09
@@ -1025,8 +1023,6 @@ Wire Wire Line
 	11500 3300 10750 3300
 Text Label 11500 2800 2    50   ~ 0
 NC24
-Text Label 11500 2900 2    50   ~ 0
-NC25
 Text Label 11500 3200 2    50   ~ 0
 NC28
 Text Label 13800 1600 0    50   ~ 0
@@ -1166,4 +1162,8 @@ $EndComp
 Wire Wire Line
 	8000 8500 7900 8500
 Connection ~ 8000 8500
+Text Label 11500 2900 2    50   ~ 0
+Ident-Vcc
+Text Label 12300 7000 2    50   ~ 0
+Ident-Vcc
 $EndSCHEMATC

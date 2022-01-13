@@ -451,9 +451,9 @@ Text Label 9600 6850 0    50   ~ 0
 Motor(-)
 Text Label 10950 6750 0    50   ~ 0
 5V
-Text Label 8350 6550 2    50   ~ 0
-Gate1-2
 Text Label 8350 6850 2    50   ~ 0
+Gate1-2
+Text Label 8350 6550 2    50   ~ 0
 Gate3-4
 Wire Wire Line
 	8350 6550 8350 6250
@@ -769,7 +769,7 @@ $EndComp
 Wire Wire Line
 	13800 3000 14550 3000
 $Comp
-L Custom_parts:BAT54BRW D1
+L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts D1
 U 1 1 5F7E5C45
 P 8850 5300
 F 0 "D1" H 9025 5647 60  0000 C CNN
@@ -830,7 +830,7 @@ Alarm2
 Text Notes 13900 6650 0    59   ~ 0
 Audible alarm
 $Comp
-L Custom_parts:CPT-2016-75-SMT-TR BZ1
+L Attenuator-Controller-Board-rescue:CPT-2016-75-SMT-TR-Custom_parts BZ1
 U 1 1 5FE01F50
 P 14450 6900
 F 0 "BZ1" H 14450 7100 60  0000 L CNN
