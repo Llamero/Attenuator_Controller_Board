@@ -351,7 +351,7 @@ RS-232_TXD1
 Text Label 9650 9300 0    50   ~ 0
 RS-232_RXD1
 Text Label 13850 1500 0    50   ~ 0
-3v3
+NC3v3
 Text Label 11500 3000 2    50   ~ 0
 Serial1-TX
 $Comp
@@ -767,7 +767,7 @@ $EndComp
 Wire Wire Line
 	13800 3000 14550 3000
 $Comp
-L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts D1
+L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue D1
 U 1 1 5F7E5C45
 P 8850 5300
 F 0 "D1" H 9025 5647 60  0000 C CNN
@@ -828,7 +828,7 @@ Alarm2
 Text Notes 13900 6650 0    59   ~ 0
 Audible alarm
 $Comp
-L Attenuator-Controller-Board-rescue:CPT-2016-75-SMT-TR-Custom_parts BZ1
+L Attenuator-Controller-Board-rescue:CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue BZ1
 U 1 1 5FE01F50
 P 14450 6900
 F 0 "BZ1" H 14450 7100 60  0000 L CNN
@@ -855,13 +855,13 @@ F 3 "" H 8650 5400 50  0001 C CNN
 	1    8650 5400
 	0    1    1    0   
 $EndComp
-Text Label 9400 5200 0    50   ~ 0
-Analog_Input1
 Text Label 8650 5600 2    50   ~ 0
-Analog_Input2
-Text Label 13800 3500 0    50   ~ 0
 Analog_Input1
+Text Label 9400 5200 0    50   ~ 0
+Analog_Input2
 Text Label 13800 3400 0    50   ~ 0
+Analog_Input1
+Text Label 13800 3500 0    50   ~ 0
 Analog_Input2
 $Comp
 L power:GND #PWR08
@@ -874,7 +874,7 @@ F 3 "" H 9100 3900 50  0001 C CNN
 	1    9100 3900
 	1    0    0    -1  
 $EndComp
-Text Label 8600 3700 2    50   ~ 0
+Text Label 8600 4250 2    50   ~ 0
 Analog_Input1
 Text Label 11500 3400 2    50   ~ 0
 Alarm1
@@ -891,7 +891,7 @@ F 3 "" H 9100 4450 50  0001 C CNN
 	1    9100 4450
 	1    0    0    -1  
 $EndComp
-Text Label 8600 4250 2    50   ~ 0
+Text Label 8600 3700 2    50   ~ 0
 Analog_Input2
 $Comp
 L Connector:Conn_Coaxial J3

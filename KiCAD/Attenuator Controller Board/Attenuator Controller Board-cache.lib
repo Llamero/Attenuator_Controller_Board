@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Attenuator-Controller-Board-rescue_ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue
+# Attenuator-Controller-Board-rescue_ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue
 #
-DEF Attenuator-Controller-Board-rescue_ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue U 0 10 Y Y 1 L N
+DEF Attenuator-Controller-Board-rescue_ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U 0 10 Y Y 1 L N
 F0 "U" 600 100 60 H V C CNN
-F1 "Attenuator-Controller-Board-rescue_ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue" 600 -1400 60 H V C CNN
+F1 "Attenuator-Controller-Board-rescue_ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue" 600 -1400 60 H V C CNN
 F2 "RU_28_ADI" 1300 240 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -46,11 +46,11 @@ X T3IN 9 0 -800 300 R 59 59 1 1 U
 ENDDRAW
 ENDDEF
 #
-# Attenuator-Controller-Board-rescue_BAT54BRW-Custom_parts
+# Attenuator-Controller-Board-rescue_BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue
 #
-DEF Attenuator-Controller-Board-rescue_BAT54BRW-Custom_parts D 0 40 Y Y 1 F N
+DEF Attenuator-Controller-Board-rescue_BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue D 0 40 Y Y 1 F N
 F0 "D" 200 300 60 H V C BNN
-F1 "Attenuator-Controller-Board-rescue_BAT54BRW-Custom_parts" 200 200 60 H V C CNN
+F1 "Attenuator-Controller-Board-rescue_BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue" 200 200 60 H V C CNN
 F2 "" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 DRAW
@@ -78,11 +78,11 @@ X ~ 6 550 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Attenuator-Controller-Board-rescue_CPT-2016-75-SMT-TR-Custom_parts
+# Attenuator-Controller-Board-rescue_CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue
 #
-DEF Attenuator-Controller-Board-rescue_CPT-2016-75-SMT-TR-Custom_parts BZ 0 0 Y Y 1 F N
+DEF Attenuator-Controller-Board-rescue_CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue BZ 0 0 Y Y 1 F N
 F0 "BZ" 0 200 60 H V L CNN
-F1 "Attenuator-Controller-Board-rescue_CPT-2016-75-SMT-TR-Custom_parts" -50 -150 60 H V L CNN
+F1 "Attenuator-Controller-Board-rescue_CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue" -50 -150 60 H V L CNN
 F2 "digikey-footprints:Piezo_Transducer_THT_PS1240P02BT" 200 200 60 H I L CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf" 200 300 60 H I L CNN
 DRAW
@@ -95,11 +95,11 @@ X ~ 2 -100 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Attenuator-Controller-Board-rescue_Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue
+# Attenuator-Controller-Board-rescue_Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue
 #
-DEF Attenuator-Controller-Board-rescue_Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue J 0 40 Y N 1 F N
+DEF Attenuator-Controller-Board-rescue_Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J 0 40 Y N 1 F N
 F0 "J" 0 1200 50 H V C CNN
-F1 "Attenuator-Controller-Board-rescue_Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue" 0 -1300 50 H V C CNN
+F1 "Attenuator-Controller-Board-rescue_Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue" 0 -1300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -181,11 +181,11 @@ X ~ ~ -200 1100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Attenuator-Controller-Board-rescue_DSub_15_HD_-_200-015-263R001-Custom_parts-Attenuator-Controller-Board-rescue
+# Attenuator-Controller-Board-rescue_DSub_15_HD_-_200-015-263R001-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue
 #
-DEF Attenuator-Controller-Board-rescue_DSub_15_HD_-_200-015-263R001-Custom_parts-Attenuator-Controller-Board-rescue J 0 10 Y N 1 L N
+DEF Attenuator-Controller-Board-rescue_DSub_15_HD_-_200-015-263R001-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J 0 10 Y N 1 L N
 F0 "J" 350 250 60 H V C CNN
-F1 "Attenuator-Controller-Board-rescue_DSub_15_HD_-_200-015-263R001-Custom_parts-Attenuator-Controller-Board-rescue" 100 150 60 H V C CNN
+F1 "Attenuator-Controller-Board-rescue_DSub_15_HD_-_200-015-263R001-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue" 100 150 60 H V C CNN
 F2 "CONN_200-015-263R001_NRC" 250 -1550 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -259,11 +259,11 @@ X 9 9 0 -800 200 R 59 59 1 1 U
 ENDDRAW
 ENDDEF
 #
-# Attenuator-Controller-Board-rescue_K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue
+# Attenuator-Controller-Board-rescue_K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue
 #
-DEF Attenuator-Controller-Board-rescue_K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue J 0 10 Y N 1 L N
+DEF Attenuator-Controller-Board-rescue_K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J 0 10 Y N 1 L N
 F0 "J" 350 250 60 H V C CNN
-F1 "Attenuator-Controller-Board-rescue_K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue" 300 -950 60 H V C CNN
+F1 "Attenuator-Controller-Board-rescue_K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue" 300 -950 60 H V C CNN
 F2 "CON9_0X9_P54.52756" 400 -1050 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -313,11 +313,11 @@ X 9 9 0 -800 200 R 59 59 1 1 U
 ENDDRAW
 ENDDEF
 #
-# Attenuator-Controller-Board-rescue_Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue
+# Attenuator-Controller-Board-rescue_Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue
 #
-DEF Attenuator-Controller-Board-rescue_Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue U 0 40 Y Y 1 F N
+DEF Attenuator-Controller-Board-rescue_Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 2350 60 H V C CNN
-F1 "Attenuator-Controller-Board-rescue_Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue" 0 -2350 60 H V C CNN
+F1 "Attenuator-Controller-Board-rescue_Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue" 0 -2350 60 H V C CNN
 F2 "" 0 50 60 H V C CNN
 F3 "" 0 50 60 H V C CNN
 DRAW
@@ -416,11 +416,11 @@ X VUSB ~ -1150 -750 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Attenuator-Controller-Board-rescue_ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue
+# Attenuator-Controller-Board-rescue_ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue
 #
-DEF Attenuator-Controller-Board-rescue_ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue U 0 10 Y Y 1 L N
+DEF Attenuator-Controller-Board-rescue_ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U 0 10 Y Y 1 L N
 F0 "U" 400 150 60 H V C CNN
-F1 "Attenuator-Controller-Board-rescue_ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue" 550 50 60 H V C CNN
+F1 "Attenuator-Controller-Board-rescue_ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue" 550 50 60 H V C CNN
 F2 "SOIC_7T8TA_DIO" 900 240 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
