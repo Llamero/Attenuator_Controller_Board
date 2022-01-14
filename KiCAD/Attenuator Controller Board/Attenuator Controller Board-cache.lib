@@ -46,11 +46,11 @@ X T3IN 9 0 -800 300 R 59 59 1 1 U
 ENDDRAW
 ENDDEF
 #
-# Attenuator-Controller-Board-rescue_BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue
+# Attenuator-Controller-Board-rescue_BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue
 #
-DEF Attenuator-Controller-Board-rescue_BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue D 0 40 Y Y 1 F N
+DEF Attenuator-Controller-Board-rescue_BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue D 0 40 Y Y 1 F N
 F0 "D" 200 300 60 H V C BNN
-F1 "Attenuator-Controller-Board-rescue_BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue" 200 200 60 H V C CNN
+F1 "Attenuator-Controller-Board-rescue_BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue" 200 200 60 H V C CNN
 F2 "" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 DRAW
@@ -78,11 +78,11 @@ X ~ 6 550 100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Attenuator-Controller-Board-rescue_CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue
+# Attenuator-Controller-Board-rescue_CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue
 #
-DEF Attenuator-Controller-Board-rescue_CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue BZ 0 0 Y Y 1 F N
+DEF Attenuator-Controller-Board-rescue_CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue BZ 0 0 Y Y 1 F N
 F0 "BZ" 0 200 60 H V L CNN
-F1 "Attenuator-Controller-Board-rescue_CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue" -50 -150 60 H V L CNN
+F1 "Attenuator-Controller-Board-rescue_CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue" -50 -150 60 H V L CNN
 F2 "digikey-footprints:Piezo_Transducer_THT_PS1240P02BT" 200 200 60 H I L CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/piezoelectronic_buzzer_ps_en.pdf" 200 300 60 H I L CNN
 DRAW
