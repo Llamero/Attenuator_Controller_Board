@@ -719,34 +719,8 @@ $EndComp
 Connection ~ 7450 8100
 Wire Wire Line
 	7450 8100 7750 8100
-$Comp
-L Connector:Conn_Coaxial J3
-U 1 1 61E1066B
-P 9100 4350
-F 0 "J3" H 9200 4325 50  0000 L CNN
-F 1 "Conn_Coaxial" H 9200 4234 50  0000 L CNN
-F 2 "Custom Footprints:112640" H 9100 4350 50  0001 C CNN
-F 3 "https://s3-us-west-2.amazonaws.com/catsy.582/C112640.pdf" H 9100 4350 50  0001 C CNN
-F 4 "Amphenol RF" H 9100 4350 50  0001 C CNN "Manufacturer"
-F 5 "112640" H 9100 4350 50  0001 C CNN "Part #"
-	1    9100 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13800 3000 14550 3000
-$Comp
-L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue D1
-U 1 1 5F7E5C45
-P 8850 5300
-F 0 "D1" H 9025 5647 60  0000 C CNN
-F 1 "BAT54BRW" H 9025 5541 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 9050 5500 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30152.pdf" H 9050 5600 60  0001 L CNN
-F 4 "Diodes Incorporated" H 8850 5300 50  0001 C CNN "Manufacturer"
-F 5 "BAT54BRW-7-F" H 8850 5300 50  0001 C CNN "Part #"
-	1    8850 5300
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5F81886E
@@ -862,107 +836,55 @@ $EndComp
 Text Label 8600 4350 2    50   ~ 0
 Analog_Input2
 $Comp
-L Connector:Conn_Coaxial J2
-U 1 1 61F856E4
-P 9100 3750
-F 0 "J2" H 9200 3725 50  0000 L CNN
-F 1 "Conn_Coaxial" H 9200 3634 50  0000 L CNN
-F 2 "Custom Footprints:112640" H 9100 3750 50  0001 C CNN
-F 3 "https://s3-us-west-2.amazonaws.com/catsy.582/C112640.pdf" H 9100 3750 50  0001 C CNN
-F 4 "Amphenol RF" H 9100 3750 50  0001 C CNN "Manufacturer"
-F 5 "112640" H 9100 3750 50  0001 C CNN "Part #"
-	1    9100 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Pack04_Split RN1
-U 1 1 61FBFC7D
-P 8750 3750
-F 0 "RN1" V 8650 3750 50  0000 C CNN
-F 1 "4.7k" V 8750 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8670 3750 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 8750 3750 50  0001 C CNN
-F 4 "Panasonic Electronic Components" V 8750 3750 50  0001 C CNN "Manufacturer"
-F 5 "EXB-38V472JV" V 8750 3750 50  0001 C CNN "Part #"
-	1    8750 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split RN1
-U 2 1 61FC4641
-P 8750 4350
-F 0 "RN1" V 8650 4350 50  0000 C CNN
-F 1 "4.7k" V 8750 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8670 4350 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 8750 4350 50  0001 C CNN
-F 4 "Panasonic Electronic Components" V 8750 4350 50  0001 C CNN "Manufacturer"
-F 5 "EXB-38V472JV" V 8750 4350 50  0001 C CNN "Part #"
-	2    8750 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split RN1
-U 3 1 61FC5D93
-P 11450 6900
-F 0 "RN1" V 11550 6900 50  0000 C CNN
-F 1 "4.7k" V 11450 6900 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 11370 6900 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 11450 6900 50  0001 C CNN
-F 4 "Panasonic Electronic Components" V 11450 6900 50  0001 C CNN "Manufacturer"
-F 5 "EXB-38V472JV" V 11450 6900 50  0001 C CNN "Part #"
-	3    11450 6900
-	0    1    -1   0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 6179BB3F
-P 8700 10250
-F 0 "H1" H 8650 10450 50  0000 L CNN
-F 1 "MountingHole" H 8500 10100 50  0001 L CNN
-F 2 "Custom Footprints:1_4-20_Clearance_hole" H 8700 10250 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 8700 10250 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 8700 10250 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 8700 10250 50  0001 C CNN "Part #"
-	1    8700 10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 62040EAE
-P 8950 10250
-F 0 "H2" H 8900 10450 50  0000 L CNN
-F 1 "MountingHole" H 8750 10100 50  0001 L CNN
-F 2 "Custom Footprints:1_4-20_Clearance_hole" H 8950 10250 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 8950 10250 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 8950 10250 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 8950 10250 50  0001 C CNN "Part #"
-	1    8950 10250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H3
-U 1 1 62049E72
-P 9200 10250
-F 0 "H3" H 9150 10450 50  0000 L CNN
-F 1 "MountingHole" H 9000 10100 50  0001 L CNN
-F 2 "Custom Footprints:1_4-20_Clearance_hole" H 9200 10250 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 9200 10250 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 9200 10250 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 9200 10250 50  0001 C CNN "Part #"
-	1    9200 10250
+U 1 1 6179BB3F
+P 9150 9950
+F 0 "H3" H 9100 10150 50  0000 L CNN
+F 1 "MountingHole" H 8950 9800 50  0001 L CNN
+F 2 "Custom Footprints:1_4-20_Clearance_hole" H 9150 9950 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 9150 9950 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 9150 9950 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 9150 9950 50  0001 C CNN "Part #"
+	1    9150 9950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
+U 1 1 62040EAE
+P 9400 9950
+F 0 "H4" H 9350 10150 50  0000 L CNN
+F 1 "MountingHole" H 9200 9800 50  0001 L CNN
+F 2 "Custom Footprints:1_4-20_Clearance_hole" H 9400 9950 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 9400 9950 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 9400 9950 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 9400 9950 50  0001 C CNN "Part #"
+	1    9400 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 62049E72
+P 8650 9950
+F 0 "H1" H 8600 10150 50  0000 L CNN
+F 1 "MountingHole" H 8450 9800 50  0001 L CNN
+F 2 "Custom Footprints:1_4-20_Clearance_hole" H 8650 9950 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 8650 9950 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 8650 9950 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 8650 9950 50  0001 C CNN "Part #"
+	1    8650 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
 U 1 1 6204A1A9
-P 9450 10250
-F 0 "H4" H 9400 10450 50  0000 L CNN
-F 1 "MountingHole" H 9250 10100 50  0001 L CNN
-F 2 "Custom Footprints:1_4-20_Clearance_hole" H 9450 10250 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 9450 10250 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 9450 10250 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 9450 10250 50  0001 C CNN "Part #"
-	1    9450 10250
+P 8900 9950
+F 0 "H2" H 8850 10150 50  0000 L CNN
+F 1 "MountingHole" H 8700 9800 50  0001 L CNN
+F 2 "Custom Footprints:1_4-20_Clearance_hole" H 8900 9950 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 8900 9950 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 8900 9950 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 8900 9950 50  0001 C CNN "Part #"
+	1    8900 9950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1133,19 +1055,6 @@ Wire Wire Line
 Connection ~ 10650 6750
 Text Label 12300 6200 2    50   ~ 0
 Forward_Limit_Switch
-$Comp
-L Device:R_Pack04_Split RN1
-U 4 1 61E2DDA8
-P 11750 6900
-F 0 "RN1" V 11650 6900 50  0000 C CNN
-F 1 "4.7k" V 11750 6900 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 11670 6900 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 11750 6900 50  0001 C CNN
-F 4 "Panasonic Electronic Components" V 11750 6900 50  0001 C CNN "Manufacturer"
-F 5 "EXB-38V472JV" V 11750 6900 50  0001 C CNN "Part #"
-	4    11750 6900
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	11600 6900 11600 6700
 Text Label 12300 6900 2    50   ~ 0
@@ -1258,91 +1167,182 @@ F 3 "" H 15050 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP3
 U 1 1 61F08E3C
-P 8700 10450
-F 0 "JP?" V 8700 10500 50  0000 L CNN
-F 1 "Jumper_NC_Small" V 8745 10498 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8700 10450 50  0001 C CNN
-F 3 "~" H 8700 10450 50  0001 C CNN
-	1    8700 10450
+P 9150 10150
+F 0 "JP3" V 9150 10200 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 9195 10198 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9150 10150 50  0001 C CNN
+F 3 "~" H 9150 10150 50  0001 C CNN
+	1    9150 10150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP4
 U 1 1 61F0B9AC
-P 8950 10450
-F 0 "JP?" V 8950 10500 50  0000 L CNN
-F 1 "Jumper_NC_Small" V 8995 10498 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8950 10450 50  0001 C CNN
-F 3 "~" H 8950 10450 50  0001 C CNN
-	1    8950 10450
+P 9400 10150
+F 0 "JP4" V 9400 10200 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 9445 10198 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9400 10150 50  0001 C CNN
+F 3 "~" H 9400 10150 50  0001 C CNN
+	1    9400 10150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP1
 U 1 1 61F0BF25
-P 9200 10450
-F 0 "JP?" V 9200 10500 50  0000 L CNN
-F 1 "Jumper_NC_Small" V 9245 10498 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9200 10450 50  0001 C CNN
-F 3 "~" H 9200 10450 50  0001 C CNN
-	1    9200 10450
+P 8650 10150
+F 0 "JP1" V 8650 10200 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 8695 10198 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8650 10150 50  0001 C CNN
+F 3 "~" H 8650 10150 50  0001 C CNN
+	1    8650 10150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small JP2
 U 1 1 61F0C3FB
-P 9450 10450
-F 0 "JP?" V 9450 10500 50  0000 L CNN
-F 1 "Jumper_NC_Small" V 9495 10498 50  0001 L CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9450 10450 50  0001 C CNN
-F 3 "~" H 9450 10450 50  0001 C CNN
-	1    9450 10450
+P 8900 10150
+F 0 "JP2" V 8900 10200 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 8945 10198 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8900 10150 50  0001 C CNN
+F 3 "~" H 8900 10150 50  0001 C CNN
+	1    8900 10150
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 61F0C867
-P 8700 10550
-F 0 "#PWR?" H 8700 10300 50  0001 C CNN
-F 1 "GND" H 8705 10377 50  0000 C CNN
-F 2 "" H 8700 10550 50  0001 C CNN
-F 3 "" H 8700 10550 50  0001 C CNN
-	1    8700 10550
+P 9150 10250
+F 0 "#PWR0105" H 9150 10000 50  0001 C CNN
+F 1 "GND" H 9155 10077 50  0000 C CNN
+F 2 "" H 9150 10250 50  0001 C CNN
+F 3 "" H 9150 10250 50  0001 C CNN
+	1    9150 10250
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 61F1B3F1
-P 8950 10550
-F 0 "#PWR?" H 8950 10300 50  0001 C CNN
-F 1 "GND" H 8955 10377 50  0000 C CNN
-F 2 "" H 8950 10550 50  0001 C CNN
-F 3 "" H 8950 10550 50  0001 C CNN
-	1    8950 10550
+P 9400 10250
+F 0 "#PWR0106" H 9400 10000 50  0001 C CNN
+F 1 "GND" H 9405 10077 50  0000 C CNN
+F 2 "" H 9400 10250 50  0001 C CNN
+F 3 "" H 9400 10250 50  0001 C CNN
+	1    9400 10250
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 61F1B7A2
-P 9200 10550
-F 0 "#PWR?" H 9200 10300 50  0001 C CNN
-F 1 "GND" H 9205 10377 50  0000 C CNN
-F 2 "" H 9200 10550 50  0001 C CNN
-F 3 "" H 9200 10550 50  0001 C CNN
-	1    9200 10550
+P 8650 10250
+F 0 "#PWR0107" H 8650 10000 50  0001 C CNN
+F 1 "GND" H 8655 10077 50  0000 C CNN
+F 2 "" H 8650 10250 50  0001 C CNN
+F 3 "" H 8650 10250 50  0001 C CNN
+	1    8650 10250
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 61F1BB0A
-P 9450 10550
-F 0 "#PWR?" H 9450 10300 50  0001 C CNN
-F 1 "GND" H 9455 10377 50  0000 C CNN
-F 2 "" H 9450 10550 50  0001 C CNN
-F 3 "" H 9450 10550 50  0001 C CNN
-	1    9450 10550
+P 8900 10250
+F 0 "#PWR0108" H 8900 10000 50  0001 C CNN
+F 1 "GND" H 8905 10077 50  0000 C CNN
+F 2 "" H 8900 10250 50  0001 C CNN
+F 3 "" H 8900 10250 50  0001 C CNN
+	1    8900 10250
 	1    0    0    -1  
+$EndComp
+$Comp
+L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue D1
+U 1 1 5F7E5C45
+P 8850 5300
+F 0 "D1" H 9025 5647 60  0000 C CNN
+F 1 "BAT54BRW" H 9025 5541 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 9050 5500 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30152.pdf" H 9050 5600 60  0001 L CNN
+F 4 "Diodes Incorporated" H 8850 5300 50  0001 C CNN "Manufacturer"
+F 5 "BAT54BRW-7-F" H 8850 5300 50  0001 C CNN "Part #"
+	1    8850 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 61E1066B
+P 9100 4350
+F 0 "J3" H 9200 4325 50  0000 L CNN
+F 1 "Conn_Coaxial" H 9200 4234 50  0000 L CNN
+F 2 "Custom Footprints:112640" H 9100 4350 50  0001 C CNN
+F 3 "https://s3-us-west-2.amazonaws.com/catsy.582/C112640.pdf" H 9100 4350 50  0001 C CNN
+F 4 "Amphenol RF" H 9100 4350 50  0001 C CNN "Manufacturer"
+F 5 "112640" H 9100 4350 50  0001 C CNN "Part #"
+	1    9100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 61F856E4
+P 9100 3750
+F 0 "J2" H 9200 3725 50  0000 L CNN
+F 1 "Conn_Coaxial" H 9200 3634 50  0000 L CNN
+F 2 "Custom Footprints:112640" H 9100 3750 50  0001 C CNN
+F 3 "https://s3-us-west-2.amazonaws.com/catsy.582/C112640.pdf" H 9100 3750 50  0001 C CNN
+F 4 "Amphenol RF" H 9100 3750 50  0001 C CNN "Manufacturer"
+F 5 "112640" H 9100 3750 50  0001 C CNN "Part #"
+	1    9100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1
+U 4 1 61E2DDA8
+P 11750 6900
+F 0 "RN1" V 11650 6900 50  0000 C CNN
+F 1 "4.7k" V 11750 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 11670 6900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 11750 6900 50  0001 C CNN
+F 4 "Panasonic Electronic Components" V 11750 6900 50  0001 C CNN "Manufacturer"
+F 5 "EXB-38V472JV" V 11750 6900 50  0001 C CNN "Part #"
+	4    11750 6900
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1
+U 3 1 61FC5D93
+P 11450 6900
+F 0 "RN1" V 11550 6900 50  0000 C CNN
+F 1 "4.7k" V 11450 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 11370 6900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 11450 6900 50  0001 C CNN
+F 4 "Panasonic Electronic Components" V 11450 6900 50  0001 C CNN "Manufacturer"
+F 5 "EXB-38V472JV" V 11450 6900 50  0001 C CNN "Part #"
+	3    11450 6900
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1
+U 2 1 61FC4641
+P 8750 4350
+F 0 "RN1" V 8650 4350 50  0000 C CNN
+F 1 "4.7k" V 8750 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8670 4350 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 8750 4350 50  0001 C CNN
+F 4 "Panasonic Electronic Components" V 8750 4350 50  0001 C CNN "Manufacturer"
+F 5 "EXB-38V472JV" V 8750 4350 50  0001 C CNN "Part #"
+	2    8750 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split RN1
+U 1 1 61FBFC7D
+P 8750 3750
+F 0 "RN1" V 8650 3750 50  0000 C CNN
+F 1 "4.7k" V 8750 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8670 3750 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 8750 3750 50  0001 C CNN
+F 4 "Panasonic Electronic Components" V 8750 3750 50  0001 C CNN "Manufacturer"
+F 5 "EXB-38V472JV" V 8750 3750 50  0001 C CNN "Part #"
+	1    8750 3750
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

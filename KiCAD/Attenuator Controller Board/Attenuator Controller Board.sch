@@ -735,7 +735,7 @@ $EndComp
 Wire Wire Line
 	13800 3000 14550 3000
 $Comp
-L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue D1
+L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue D1
 U 1 1 5F7E5C45
 P 8850 5300
 F 0 "D1" H 9025 5647 60  0000 C CNN
@@ -796,7 +796,7 @@ Alarm2
 Text Notes 13900 6650 0    59   ~ 0
 Audible alarm
 $Comp
-L Attenuator-Controller-Board-rescue:CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue BZ1
+L Attenuator-Controller-Board-rescue:CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue BZ1
 U 1 1 5FE01F50
 P 14450 6900
 F 0 "BZ1" H 14450 7100 60  0000 L CNN
@@ -914,55 +914,55 @@ F 5 "EXB-38V472JV" V 11450 6900 50  0001 C CNN "Part #"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 6179BB3F
-P 8700 10250
-F 0 "H1" H 8650 10450 50  0000 L CNN
-F 1 "MountingHole" H 8500 10100 50  0001 L CNN
-F 2 "Custom Footprints:1_4-20_Clearance_hole" H 8700 10250 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 8700 10250 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 8700 10250 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 8700 10250 50  0001 C CNN "Part #"
-	1    8700 10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 62040EAE
-P 8850 10250
-F 0 "H2" H 8800 10450 50  0000 L CNN
-F 1 "MountingHole" H 8650 10100 50  0001 L CNN
-F 2 "Custom Footprints:1_4-20_Clearance_hole" H 8850 10250 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 8850 10250 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 8850 10250 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 8850 10250 50  0001 C CNN "Part #"
-	1    8850 10250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H3
-U 1 1 62049E72
-P 9000 10250
-F 0 "H3" H 8950 10450 50  0000 L CNN
-F 1 "MountingHole" H 8800 10100 50  0001 L CNN
-F 2 "Custom Footprints:1_4-20_Clearance_hole" H 9000 10250 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 9000 10250 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 9000 10250 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 9000 10250 50  0001 C CNN "Part #"
-	1    9000 10250
+U 1 1 6179BB3F
+P 9150 9950
+F 0 "H3" H 9100 10150 50  0000 L CNN
+F 1 "MountingHole" H 8950 9800 50  0001 L CNN
+F 2 "Custom Footprints:1_4-20_Clearance_hole" H 9150 9950 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 9150 9950 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 9150 9950 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 9150 9950 50  0001 C CNN "Part #"
+	1    9150 9950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
+U 1 1 62040EAE
+P 9400 9950
+F 0 "H4" H 9350 10150 50  0000 L CNN
+F 1 "MountingHole" H 9200 9800 50  0001 L CNN
+F 2 "Custom Footprints:1_4-20_Clearance_hole" H 9400 9950 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 9400 9950 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 9400 9950 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 9400 9950 50  0001 C CNN "Part #"
+	1    9400 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 62049E72
+P 8650 9950
+F 0 "H1" H 8600 10150 50  0000 L CNN
+F 1 "MountingHole" H 8450 9800 50  0001 L CNN
+F 2 "Custom Footprints:1_4-20_Clearance_hole" H 8650 9950 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 8650 9950 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 8650 9950 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 8650 9950 50  0001 C CNN "Part #"
+	1    8650 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
 U 1 1 6204A1A9
-P 9150 10250
-F 0 "H4" H 9100 10450 50  0000 L CNN
-F 1 "MountingHole" H 8950 10100 50  0001 L CNN
-F 2 "Custom Footprints:1_4-20_Clearance_hole" H 9150 10250 50  0001 C CNN
-F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 9150 10250 50  0001 C CNN
-F 4 "RAF Electronic Hardware" H 9150 10250 50  0001 C CNN "Manufacturer"
-F 5 "4689-2520-S-12" H 9150 10250 50  0001 C CNN "Part #"
-	1    9150 10250
+P 8900 9950
+F 0 "H2" H 8850 10150 50  0000 L CNN
+F 1 "MountingHole" H 8700 9800 50  0001 L CNN
+F 2 "Custom Footprints:1_4-20_Clearance_hole" H 8900 9950 50  0001 C CNN
+F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 8900 9950 50  0001 C CNN
+F 4 "RAF Electronic Hardware" H 8900 9950 50  0001 C CNN "Manufacturer"
+F 5 "4689-2520-S-12" H 8900 9950 50  0001 C CNN "Part #"
+	1    8900 9950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1257,36 +1257,92 @@ F 3 "" H 15050 9050 50  0001 C CNN
 	1    15050 9050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8700 10350 8850 10350
-Connection ~ 8850 10350
-Wire Wire Line
-	8850 10350 9000 10350
-Connection ~ 9000 10350
-Wire Wire Line
-	9000 10350 9150 10350
 $Comp
-L power:GND #PWR?
-U 1 1 61F00536
-P 9150 10350
-F 0 "#PWR?" H 9150 10100 50  0001 C CNN
-F 1 "GND" H 9155 10177 50  0000 C CNN
-F 2 "" H 9150 10350 50  0001 C CNN
-F 3 "" H 9150 10350 50  0001 C CNN
-	1    9150 10350
+L Device:Jumper_NO_Small JP3
+U 1 1 61F08E3C
+P 9150 10150
+F 0 "JP3" V 9150 10200 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 9195 10198 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9150 10150 50  0001 C CNN
+F 3 "~" H 9150 10150 50  0001 C CNN
+	1    9150 10150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 61F0B9AC
+P 9400 10150
+F 0 "JP4" V 9400 10200 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 9445 10198 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9400 10150 50  0001 C CNN
+F 3 "~" H 9400 10150 50  0001 C CNN
+	1    9400 10150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 61F0BF25
+P 8650 10150
+F 0 "JP1" V 8650 10200 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 8695 10198 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8650 10150 50  0001 C CNN
+F 3 "~" H 8650 10150 50  0001 C CNN
+	1    8650 10150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 61F0C3FB
+P 8900 10150
+F 0 "JP2" V 8900 10200 50  0000 L CNN
+F 1 "Jumper_NC_Small" V 8945 10198 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8900 10150 50  0001 C CNN
+F 3 "~" H 8900 10150 50  0001 C CNN
+	1    8900 10150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 61F0C867
+P 9150 10250
+F 0 "#PWR0105" H 9150 10000 50  0001 C CNN
+F 1 "GND" H 9155 10077 50  0000 C CNN
+F 2 "" H 9150 10250 50  0001 C CNN
+F 3 "" H 9150 10250 50  0001 C CNN
+	1    9150 10250
 	1    0    0    -1  
 $EndComp
-Connection ~ 9150 10350
 $Comp
-L power:GND #PWR?
-U 1 1 61F011DF
-P 8700 10350
-F 0 "#PWR?" H 8700 10100 50  0001 C CNN
-F 1 "GND" H 8705 10177 50  0000 C CNN
-F 2 "" H 8700 10350 50  0001 C CNN
-F 3 "" H 8700 10350 50  0001 C CNN
-	1    8700 10350
+L power:GND #PWR0106
+U 1 1 61F1B3F1
+P 9400 10250
+F 0 "#PWR0106" H 9400 10000 50  0001 C CNN
+F 1 "GND" H 9405 10077 50  0000 C CNN
+F 2 "" H 9400 10250 50  0001 C CNN
+F 3 "" H 9400 10250 50  0001 C CNN
+	1    9400 10250
 	1    0    0    -1  
 $EndComp
-Connection ~ 8700 10350
+$Comp
+L power:GND #PWR0107
+U 1 1 61F1B7A2
+P 8650 10250
+F 0 "#PWR0107" H 8650 10000 50  0001 C CNN
+F 1 "GND" H 8655 10077 50  0000 C CNN
+F 2 "" H 8650 10250 50  0001 C CNN
+F 3 "" H 8650 10250 50  0001 C CNN
+	1    8650 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 61F1BB0A
+P 8900 10250
+F 0 "#PWR0108" H 8900 10000 50  0001 C CNN
+F 1 "GND" H 8905 10077 50  0000 C CNN
+F 2 "" H 8900 10250 50  0001 C CNN
+F 3 "" H 8900 10250 50  0001 C CNN
+	1    8900 10250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
