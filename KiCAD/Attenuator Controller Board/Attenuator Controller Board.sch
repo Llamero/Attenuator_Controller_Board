@@ -49,7 +49,7 @@ F 3 "" H 13800 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U3
+L Attenuator-Controller-Board-rescue:Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U3
 U 1 1 61E48BF3
 P 12650 3450
 F 0 "U3" H 12650 5887 60  0000 C CNN
@@ -164,7 +164,7 @@ Wire Wire Line
 Wire Wire Line
 	13800 1300 14550 1300
 $Comp
-L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J4
+L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J4
 U 1 1 61E48BF4
 P 14750 2400
 F 0 "J4" H 14600 3550 50  0000 L CNN
@@ -226,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 2700 10750 2700
 $Comp
-L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J5
+L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J5
 U 1 1 61E48BF8
 P 10550 2400
 F 0 "J5" H 10400 3550 50  0000 L CNN
@@ -276,7 +276,7 @@ F 3 "~" H 13450 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:DSub_15_HD_-_200-015-263R001-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J9
+L Custom_parts:DSub_15_HD_-_200-015-263R001 J9
 U 1 1 61DCB380
 P 12300 6100
 F 0 "J9" H 12828 5453 60  0000 L CNN
@@ -354,7 +354,7 @@ NC3v3
 Text Label 11500 3000 2    50   ~ 0
 Serial1-TX
 $Comp
-L Attenuator-Controller-Board-rescue:K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J6
+L Custom_parts:K202XHT-E9P-N J6
 U 1 1 61DE6B05
 P 12300 8050
 F 0 "J6" H 12828 7703 60  0000 L CNN
@@ -398,7 +398,7 @@ F 3 "" H 13500 8450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J7
+L Custom_parts:K202XHT-E9P-N J7
 U 1 1 61E2A63C
 P 13500 8050
 F 0 "J7" H 14028 7703 60  0000 L CNN
@@ -423,7 +423,7 @@ Serial2-TX
 Text Label 8400 9200 2    50   ~ 0
 Serial2-RX
 $Comp
-L Attenuator-Controller-Board-rescue:ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U2
+L Attenuator-Controller-Board-rescue:ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U2
 U 1 1 61E4F5F5
 P 8450 6500
 F 0 "U2" H 8975 6707 60  0000 C CNN
@@ -463,7 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 6750 8350 6850
 $Comp
-L Attenuator-Controller-Board-rescue:ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U1
+L Attenuator-Controller-Board-rescue:ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U1
 U 1 1 61E61C14
 P 8400 8000
 F 0 "U1" H 9025 8257 60  0000 C CNN
@@ -649,7 +649,7 @@ F 3 "" H 14700 8450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J8
+L Custom_parts:K202XHT-E9P-N J8
 U 1 1 61DD8259
 P 14700 8050
 F 0 "J8" H 15228 7703 60  0000 L CNN
@@ -735,7 +735,7 @@ $EndComp
 Wire Wire Line
 	13800 3000 14550 3000
 $Comp
-L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue D1
+L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue D1
 U 1 1 5F7E5C45
 P 8850 5300
 F 0 "D1" H 9025 5647 60  0000 C CNN
@@ -796,7 +796,7 @@ Alarm2
 Text Notes 13900 6650 0    59   ~ 0
 Audible alarm
 $Comp
-L Attenuator-Controller-Board-rescue:CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue BZ1
+L Attenuator-Controller-Board-rescue:CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue BZ1
 U 1 1 5FE01F50
 P 14450 6900
 F 0 "BZ1" H 14450 7100 60  0000 L CNN
@@ -914,10 +914,10 @@ F 5 "EXB-38V472JV" V 11450 6900 50  0001 C CNN "Part #"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L Mechanical:MountingHole_Pad H1
 U 1 1 6179BB3F
 P 8700 10250
-F 0 "H1" H 8650 10400 50  0000 L CNN
+F 0 "H1" H 8650 10450 50  0000 L CNN
 F 1 "MountingHole" H 8500 10100 50  0001 L CNN
 F 2 "Custom Footprints:1_4-20_Clearance_hole" H 8700 10250 50  0001 C CNN
 F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 8700 10250 50  0001 C CNN
@@ -927,10 +927,10 @@ F 5 "4689-2520-S-12" H 8700 10250 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole_Pad H2
 U 1 1 62040EAE
 P 8850 10250
-F 0 "H2" H 8800 10400 50  0000 L CNN
+F 0 "H2" H 8800 10450 50  0000 L CNN
 F 1 "MountingHole" H 8650 10100 50  0001 L CNN
 F 2 "Custom Footprints:1_4-20_Clearance_hole" H 8850 10250 50  0001 C CNN
 F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 8850 10250 50  0001 C CNN
@@ -940,10 +940,10 @@ F 5 "4689-2520-S-12" H 8850 10250 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole_Pad H3
 U 1 1 62049E72
 P 9000 10250
-F 0 "H3" H 8950 10400 50  0000 L CNN
+F 0 "H3" H 8950 10450 50  0000 L CNN
 F 1 "MountingHole" H 8800 10100 50  0001 L CNN
 F 2 "Custom Footprints:1_4-20_Clearance_hole" H 9000 10250 50  0001 C CNN
 F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 9000 10250 50  0001 C CNN
@@ -953,10 +953,10 @@ F 5 "4689-2520-S-12" H 9000 10250 50  0001 C CNN "Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole_Pad H4
 U 1 1 6204A1A9
 P 9150 10250
-F 0 "H4" H 9100 10400 50  0000 L CNN
+F 0 "H4" H 9100 10450 50  0000 L CNN
 F 1 "MountingHole" H 8950 10100 50  0001 L CNN
 F 2 "Custom Footprints:1_4-20_Clearance_hole" H 9150 10250 50  0001 C CNN
 F 3 "http://dpk3n3gg92jwt.cloudfront.net/domains/raf/pdf/RAF%20Catalog.pdf" H 9150 10250 50  0001 C CNN
@@ -1213,4 +1213,80 @@ Wire Wire Line
 	7100 8100 7450 8100
 Wire Wire Line
 	10650 6750 10650 7000
+$Comp
+L power:GND #PWR0101
+U 1 1 61EF3BA8
+P 12650 7700
+F 0 "#PWR0101" H 12650 7450 50  0001 C CNN
+F 1 "GND" H 12655 7527 50  0000 C CNN
+F 2 "" H 12650 7700 50  0001 C CNN
+F 3 "" H 12650 7700 50  0001 C CNN
+	1    12650 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61EF4408
+P 12650 9050
+F 0 "#PWR0102" H 12650 8800 50  0001 C CNN
+F 1 "GND" H 12655 8877 50  0000 C CNN
+F 2 "" H 12650 9050 50  0001 C CNN
+F 3 "" H 12650 9050 50  0001 C CNN
+	1    12650 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61EF4BA2
+P 13850 9050
+F 0 "#PWR0103" H 13850 8800 50  0001 C CNN
+F 1 "GND" H 13855 8877 50  0000 C CNN
+F 2 "" H 13850 9050 50  0001 C CNN
+F 3 "" H 13850 9050 50  0001 C CNN
+	1    13850 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 61EF5165
+P 15050 9050
+F 0 "#PWR0104" H 15050 8800 50  0001 C CNN
+F 1 "GND" H 15055 8877 50  0000 C CNN
+F 2 "" H 15050 9050 50  0001 C CNN
+F 3 "" H 15050 9050 50  0001 C CNN
+	1    15050 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 10350 8850 10350
+Connection ~ 8850 10350
+Wire Wire Line
+	8850 10350 9000 10350
+Connection ~ 9000 10350
+Wire Wire Line
+	9000 10350 9150 10350
+$Comp
+L power:GND #PWR?
+U 1 1 61F00536
+P 9150 10350
+F 0 "#PWR?" H 9150 10100 50  0001 C CNN
+F 1 "GND" H 9155 10177 50  0000 C CNN
+F 2 "" H 9150 10350 50  0001 C CNN
+F 3 "" H 9150 10350 50  0001 C CNN
+	1    9150 10350
+	1    0    0    -1  
+$EndComp
+Connection ~ 9150 10350
+$Comp
+L power:GND #PWR?
+U 1 1 61F011DF
+P 8700 10350
+F 0 "#PWR?" H 8700 10100 50  0001 C CNN
+F 1 "GND" H 8705 10177 50  0000 C CNN
+F 2 "" H 8700 10350 50  0001 C CNN
+F 3 "" H 8700 10350 50  0001 C CNN
+	1    8700 10350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 10350
 $EndSCHEMATC

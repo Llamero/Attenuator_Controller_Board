@@ -49,7 +49,7 @@ F 3 "" H 13800 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U3
+L Attenuator-Controller-Board-rescue:Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U3
 U 1 1 61E48BF3
 P 12650 3450
 F 0 "U3" H 12650 5887 60  0000 C CNN
@@ -164,7 +164,7 @@ Wire Wire Line
 Wire Wire Line
 	13800 1300 14550 1300
 $Comp
-L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J4
+L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J4
 U 1 1 61E48BF4
 P 14750 2400
 F 0 "J4" H 14600 3550 50  0000 L CNN
@@ -226,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 2700 10750 2700
 $Comp
-L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J5
+L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J5
 U 1 1 61E48BF8
 P 10550 2400
 F 0 "J5" H 10400 3550 50  0000 L CNN
@@ -276,7 +276,7 @@ F 3 "~" H 13450 9700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:DSub_15_HD_-_200-015-263R001-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J9
+L Custom_parts:DSub_15_HD_-_200-015-263R001 J9
 U 1 1 61DCB380
 P 12300 6100
 F 0 "J9" H 12828 5453 60  0000 L CNN
@@ -354,7 +354,7 @@ NC3v3
 Text Label 11500 3000 2    50   ~ 0
 Serial1-TX
 $Comp
-L Attenuator-Controller-Board-rescue:K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J6
+L Custom_parts:K202XHT-E9P-N J6
 U 1 1 61DE6B05
 P 12300 8050
 F 0 "J6" H 12828 7703 60  0000 L CNN
@@ -398,7 +398,7 @@ F 3 "" H 13500 8450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J7
+L Custom_parts:K202XHT-E9P-N J7
 U 1 1 61E2A63C
 P 13500 8050
 F 0 "J7" H 14028 7703 60  0000 L CNN
@@ -423,7 +423,7 @@ Serial2-TX
 Text Label 8400 9200 2    50   ~ 0
 Serial2-RX
 $Comp
-L Attenuator-Controller-Board-rescue:ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U2
+L Attenuator-Controller-Board-rescue:ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U2
 U 1 1 61E4F5F5
 P 8450 6500
 F 0 "U2" H 8975 6707 60  0000 C CNN
@@ -463,7 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 6750 8350 6850
 $Comp
-L Attenuator-Controller-Board-rescue:ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U1
+L Attenuator-Controller-Board-rescue:ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U1
 U 1 1 61E61C14
 P 8400 8000
 F 0 "U1" H 9025 8257 60  0000 C CNN
@@ -649,7 +649,7 @@ F 3 "" H 14700 8450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:K202XHT-E9P-N-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J8
+L Custom_parts:K202XHT-E9P-N J8
 U 1 1 61DD8259
 P 14700 8050
 F 0 "J8" H 15228 7703 60  0000 L CNN
@@ -735,7 +735,7 @@ $EndComp
 Wire Wire Line
 	13800 3000 14550 3000
 $Comp
-L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue D1
+L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue D1
 U 1 1 5F7E5C45
 P 8850 5300
 F 0 "D1" H 9025 5647 60  0000 C CNN
@@ -796,7 +796,7 @@ Alarm2
 Text Notes 13900 6650 0    59   ~ 0
 Audible alarm
 $Comp
-L Attenuator-Controller-Board-rescue:CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue BZ1
+L Attenuator-Controller-Board-rescue:CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue BZ1
 U 1 1 5FE01F50
 P 14450 6900
 F 0 "BZ1" H 14450 7100 60  0000 L CNN
@@ -1023,27 +1023,27 @@ $Comp
 L Device:C_Small C10
 U 1 1 620BEBA5
 P 10550 6650
-F 0 "C10" H 10300 6700 50  0000 L CNN
-F 1 "10µF" H 10250 6600 50  0000 L CNN
+F 0 "C10" H 10650 6700 50  0000 L CNN
+F 1 "10µF" H 10600 6600 50  0000 L CNN
 F 2 "Custom Footprints:0508_Capacitor" H 10550 6650 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/taiyo-yuden/LWK212BJ106MD-T/2763363" H 10550 6650 50  0001 C CNN
 F 4 "Taiyo Yuden" H 10550 6650 50  0001 C CNN "Manufacturer"
 F 5 "LWK212BJ106MD-T" H 10550 6650 50  0001 C CNN "Part #"
 	1    10550 6650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C_Small C8
 U 1 1 620C1117
 P 10200 6650
-F 0 "C8" H 10000 6700 50  0000 L CNN
-F 1 "10µF" H 9900 6600 50  0000 L CNN
+F 0 "C8" H 10300 6700 50  0000 L CNN
+F 1 "10µF" H 10250 6600 50  0000 L CNN
 F 2 "Custom Footprints:0508_Capacitor" H 10200 6650 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/taiyo-yuden/LWK212BJ106MD-T/2763363" H 10200 6650 50  0001 C CNN
 F 4 "Taiyo Yuden" H 10200 6650 50  0001 C CNN "Manufacturer"
 F 5 "LWK212BJ106MD-T" H 10200 6650 50  0001 C CNN "Part #"
 	1    10200 6650
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	9600 6750 10200 6750
@@ -1130,8 +1130,6 @@ Text Label 11500 1800 2    50   ~ 0
 NC4
 Wire Wire Line
 	12300 7000 10650 7000
-Wire Wire Line
-	10650 7000 10650 6750
 Connection ~ 10650 6750
 Text Label 12300 6200 2    50   ~ 0
 Forward_Limit_Switch
@@ -1167,14 +1165,14 @@ $Comp
 L Device:C_Small C9
 U 1 1 61E73205
 P 10200 6850
-F 0 "C9" H 10000 6900 50  0000 L CNN
-F 1 "0.1µF" H 9900 6800 50  0000 L CNN
+F 0 "C9" H 10300 6900 50  0000 L CNN
+F 1 "0.1µF" H 10250 6800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10200 6850 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNL/3894274" H 10200 6850 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 10200 6850 50  0001 C CNN "Manufacturer"
 F 5 "CL10B104KB8NNNL" H 10200 6850 50  0001 C CNN "Part #"
 	1    10200 6850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR011
@@ -1191,14 +1189,14 @@ $Comp
 L Device:C_Small C11
 U 1 1 61E76686
 P 10550 6850
-F 0 "C11" H 10300 6900 50  0000 L CNN
-F 1 "0.1µF" H 10250 6800 50  0000 L CNN
+F 0 "C11" H 10650 6900 50  0000 L CNN
+F 1 "0.1µF" H 10600 6800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10550 6850 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNL/3894274" H 10550 6850 50  0001 C CNN
 F 4 "Samsung Electro-Mechanics" H 10550 6850 50  0001 C CNN "Manufacturer"
 F 5 "CL10B104KB8NNNL" H 10550 6850 50  0001 C CNN "Part #"
 	1    10550 6850
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR013
@@ -1213,4 +1211,50 @@ F 3 "" H 10550 6550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7100 8100 7450 8100
+Wire Wire Line
+	10650 6750 10650 7000
+$Comp
+L power:GND #PWR?
+U 1 1 61EF3BA8
+P 12650 7700
+F 0 "#PWR?" H 12650 7450 50  0001 C CNN
+F 1 "GND" H 12655 7527 50  0000 C CNN
+F 2 "" H 12650 7700 50  0001 C CNN
+F 3 "" H 12650 7700 50  0001 C CNN
+	1    12650 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61EF4408
+P 12650 9050
+F 0 "#PWR?" H 12650 8800 50  0001 C CNN
+F 1 "GND" H 12655 8877 50  0000 C CNN
+F 2 "" H 12650 9050 50  0001 C CNN
+F 3 "" H 12650 9050 50  0001 C CNN
+	1    12650 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61EF4BA2
+P 13850 9050
+F 0 "#PWR?" H 13850 8800 50  0001 C CNN
+F 1 "GND" H 13855 8877 50  0000 C CNN
+F 2 "" H 13850 9050 50  0001 C CNN
+F 3 "" H 13850 9050 50  0001 C CNN
+	1    13850 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61EF5165
+P 15050 9050
+F 0 "#PWR?" H 15050 8800 50  0001 C CNN
+F 1 "GND" H 15055 8877 50  0000 C CNN
+F 2 "" H 15050 9050 50  0001 C CNN
+F 3 "" H 15050 9050 50  0001 C CNN
+	1    15050 9050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
