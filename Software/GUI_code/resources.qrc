@@ -1,7 +1,9 @@
 <RCC>
   <qresource prefix="newPrefix">
-    <file>Four Channel MHz LED Driver-download.png</file>
-    <file>Four Channel MHz LED Driver-main.png</file>
-    <file>Four Channel MHz LED Driver-upload.png</file>
+    <file>Home_figure.png</file>
+    <file>100px-blank.png</file>
+    <file>Attenuator Controller Board.png</file>
+    <file>100px-Laser-symbol - faded.svg.png</file>
+    <file>100px-Laser-symbol.svg.png</file>
   </qresource>
 </RCC>
