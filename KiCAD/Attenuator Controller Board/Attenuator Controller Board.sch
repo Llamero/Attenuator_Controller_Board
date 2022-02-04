@@ -49,7 +49,7 @@ F 3 "" H 13800 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U3
+L Attenuator-Controller-Board-rescue:Teensy3.6-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U3
 U 1 1 61E48BF3
 P 12650 3450
 F 0 "U3" H 12650 5887 60  0000 C CNN
@@ -164,7 +164,7 @@ Wire Wire Line
 Wire Wire Line
 	13800 1300 14550 1300
 $Comp
-L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J4
+L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J4
 U 1 1 61E48BF4
 P 14750 2400
 F 0 "J4" H 14600 3550 50  0000 L CNN
@@ -226,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 2700 10750 2700
 $Comp
-L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J5
+L Attenuator-Controller-Board-rescue:Conn_01x24_Female-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue J5
 U 1 1 61E48BF8
 P 10550 2400
 F 0 "J5" H 10400 3550 50  0000 L CNN
@@ -423,7 +423,7 @@ Serial2-TX
 Text Label 8400 9200 2    50   ~ 0
 Serial2-RX
 $Comp
-L Attenuator-Controller-Board-rescue:ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U2
+L Attenuator-Controller-Board-rescue:ZXMHC3A01T8TA-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U2
 U 1 1 61E4F5F5
 P 8450 6500
 F 0 "U2" H 8975 6707 60  0000 C CNN
@@ -463,7 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 6750 8350 6850
 $Comp
-L Attenuator-Controller-Board-rescue:ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U1
+L Attenuator-Controller-Board-rescue:ADM3307EARU-REEL7-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue U1
 U 1 1 61E61C14
 P 8400 8000
 F 0 "U1" H 9025 8257 60  0000 C CNN
@@ -770,7 +770,7 @@ Alarm2
 Text Notes 13900 6650 0    59   ~ 0
 Audible alarm
 $Comp
-L Attenuator-Controller-Board-rescue:CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue BZ1
+L Attenuator-Controller-Board-rescue:CPT-2016-75-SMT-TR-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue BZ1
 U 1 1 5FE01F50
 P 14450 6900
 F 0 "BZ1" H 14450 7100 60  0000 L CNN
@@ -1255,7 +1255,7 @@ F 3 "" H 8900 10250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue D1
+L Attenuator-Controller-Board-rescue:BAT54BRW-Custom_parts-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue-Attenuator-Controller-Board-rescue D1
 U 1 1 5F7E5C45
 P 8850 5300
 F 0 "D1" H 9025 5647 60  0000 C CNN
@@ -1299,7 +1299,7 @@ U 4 1 61E2DDA8
 P 11750 6900
 F 0 "RN1" V 11650 6900 50  0000 C CNN
 F 1 "4.7k" V 11750 6900 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 11670 6900 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 11670 6900 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 11750 6900 50  0001 C CNN
 F 4 "Panasonic Electronic Components" V 11750 6900 50  0001 C CNN "Manufacturer"
 F 5 "EXB-38V472JV" V 11750 6900 50  0001 C CNN "Part #"
@@ -1312,7 +1312,7 @@ U 3 1 61FC5D93
 P 11450 6900
 F 0 "RN1" V 11550 6900 50  0000 C CNN
 F 1 "4.7k" V 11450 6900 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 11370 6900 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 11370 6900 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 11450 6900 50  0001 C CNN
 F 4 "Panasonic Electronic Components" V 11450 6900 50  0001 C CNN "Manufacturer"
 F 5 "EXB-38V472JV" V 11450 6900 50  0001 C CNN "Part #"
@@ -1325,7 +1325,7 @@ U 2 1 61FC4641
 P 8750 4350
 F 0 "RN1" V 8650 4350 50  0000 C CNN
 F 1 "4.7k" V 8750 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8670 4350 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 8670 4350 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 8750 4350 50  0001 C CNN
 F 4 "Panasonic Electronic Components" V 8750 4350 50  0001 C CNN "Manufacturer"
 F 5 "EXB-38V472JV" V 8750 4350 50  0001 C CNN "Part #"
@@ -1338,7 +1338,7 @@ U 1 1 61FBFC7D
 P 8750 3750
 F 0 "RN1" V 8650 3750 50  0000 C CNN
 F 1 "4.7k" V 8750 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 8670 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 8670 3750 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 8750 3750 50  0001 C CNN
 F 4 "Panasonic Electronic Components" V 8750 3750 50  0001 C CNN "Manufacturer"
 F 5 "EXB-38V472JV" V 8750 3750 50  0001 C CNN "Part #"
