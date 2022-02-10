@@ -289,8 +289,8 @@ float control_out;
 float deltaT;
 const uint16_t STUCK_MOTOR_POWER = 65535; //How much to push motor to get it unstuck for small movements (0-65535)
 const uint16_t STUCK_MOTOR_INTERVAL = 50; //How long to wait for an encoder signal before trying to unstick the motor
-const float ENCODER_RES = 0.00052238805;
-const long BACKLASH_CORRECTION = (long) (2/0.00052238805);
+const float ENCODER_RES = 0.00052093697;
+const long BACKLASH_CORRECTION = (long) (2/ENCODER_RES);
 //////////////CLASS//////////////CLASS//////////////CLASS//////////////CLASS//////////////CLASS//////////////CLASS//////////////CLASS//////////////CLASS//////////////CLASS//////////////CLASS//////////////CLASS//////////////CLASS//////////////CLASS
 pinSetup pin;
 Encoder encoder(pin.ENCODER[0], pin.ENCODER[1]);
@@ -325,54 +325,8 @@ void setup() {
   while(!Serial); //Wait for a serial connection
   Serial.print("Encoder start at: ");
   Serial.println(encoder.read());
-//  digitalWriteFast(pin.MOTOR[0], LOW);  
-//  digitalWriteFast(pin.MOTOR[1], HIGH); 
-//  digitalWriteFast(pin.LED, HIGH); 
-//  while(digitalReadFast(pin.LIMIT[0]) && digitalReadFast(pin.LIMIT[1]));
-//  digitalWriteFast(pin.MOTOR[0], HIGH); 
-//  Serial.print("Limit start at: ");
-//  Serial.println(encoder.read());
-//  playAlarmTone();
-//  while(Serial.available()) Serial.read();
-//  while(!Serial.available());
-//  while(Serial.available()) Serial.read();
-//  delay(pin.DEBOUNCE);
-//  digitalWriteFast(pin.MOTOR[1], LOW); 
-//  digitalWriteFast(pin.LED, LOW);
-//  while(!digitalReadFast(pin.LIMIT[0]) || !digitalReadFast(pin.LIMIT[1]));
-//  encoder.write(0);
-//  elapsedMicros t;
-//  digitalWriteFast(pin.LED, HIGH);
-//  Serial.print("Encoder reset to: ");
-//  Serial.println(encoder.read());
-//  delay(pin.DEBOUNCE);
-//  
-//  while(encoder.read() < 100000);
-//  Serial.print("Final rundown at ");
-//  Serial.print(t);
-//  Serial.println(" µs:");
-//  t = 0;
-//  digitalWriteFast(pin.MOTOR[0], LOW);
-//  digitalWriteFast(pin.MOTOR[1], HIGH);
-//  long current_pos = encoder.read();
-//  elapsedMicros timer;
-//  while(encoder.read() >= current_pos){
-//    if(encoder.read() != current_pos){
-//      current_pos = encoder.read();
-//      Serial.print(current_pos);
-//      Serial.print(" at ");
-//      Serial.print(t);
-//      Serial.println("µs");
-//      timer=0;
-//    }
-//  }
-//  digitalWriteFast(pin.MOTOR[0], HIGH);
-//  delay(500);
-//        Serial.print(current_pos);
-//      Serial.print(" at ");
-//      Serial.print(t);
-//      Serial.println("µs - final");
-//      timer=0;
+  playAlarmTone();
+
   
   
 }
@@ -1412,7 +1366,7 @@ void playAlarmTone(){
   audio = 0;
   pulse = 0;
   conf.c.audio_volume[1] = 128;
-  digitalWriteFast(pin.LED, LOW);
+  digitalWriteFast(pin.LED, HIGH);
   while(pulse < 512){ //Play tone for 0.5 seconds
     if(audio < conf.c.audio_volume[1]){
       digitalWriteFast(pin.ALARM[0], HIGH);
@@ -1425,7 +1379,7 @@ void playAlarmTone(){
     }
     else audio = 0; //Reset audio cycle timer
   }
-  digitalWriteFast(pin.LED, HIGH);
+  digitalWriteFast(pin.LED, LOW);
   while(pulse < 1024){
 //    checkStatus();
   }

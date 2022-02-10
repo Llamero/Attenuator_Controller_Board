@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>542</width>
+    <width>540</width>
     <height>794</height>
    </rect>
   </property>
@@ -44,7 +44,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="main_tab">
        <property name="toolTip">
@@ -530,384 +530,11 @@ Shutter</string>
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>498</width>
+             <width>496</width>
              <height>654</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_16">
-            <item row="3" column="0">
-             <widget class="Line" name="configure_line2">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="0">
-             <widget class="QGroupBox" name="configure_current_limit_box">
-              <property name="toolTip">
-               <string>Set the current limit for each LED channel.</string>
-              </property>
-              <property name="title">
-               <string>Attenuator</string>
-              </property>
-              <layout class="QGridLayout" name="gridLayout_17" columnstretch="0,10,0,10">
-               <item row="1" column="2">
-                <widget class="QLabel" name="configure_current_limit_LED4_label">
-                 <property name="text">
-                  <string>LED #4</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="1">
-                <widget class="QDoubleSpinBox" name="configure_current_limit_LED2_spin_box">
-                 <property name="toolTip">
-                  <string>Set the current limit (in amps) for LED channel #2</string>
-                 </property>
-                 <property name="specialValueText">
-                  <string/>
-                 </property>
-                 <property name="minimum">
-                  <double>0.010000000000000</double>
-                 </property>
-                 <property name="value">
-                  <double>1.000000000000000</double>
-                 </property>
-                </widget>
-               </item>
-               <item row="2" column="0">
-                <widget class="QFrame" name="frame_3">
-                 <property name="frameShape">
-                  <enum>QFrame::StyledPanel</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Raised</enum>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="3">
-                <widget class="QLineEdit" name="lineEdit">
-                 <property name="text">
-                  <string>°</string>
-                 </property>
-                 <property name="maxLength">
-                  <number>8</number>
-                 </property>
-                </widget>
-               </item>
-               <item row="4" column="0" colspan="4">
-                <widget class="QFrame" name="frame_2">
-                 <property name="frameShape">
-                  <enum>QFrame::StyledPanel</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Raised</enum>
-                 </property>
-                 <layout class="QGridLayout" name="gridLayout_9" columnstretch="0,0,0,0,10">
-                  <property name="leftMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="topMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="rightMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="bottomMargin">
-                   <number>0</number>
-                  </property>
-                  <item row="1" column="1">
-                   <widget class="Line" name="line_3">
-                    <property name="orientation">
-                     <enum>Qt::Vertical</enum>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="0" column="0">
-                   <widget class="QCheckBox" name="checkBox_2">
-                    <property name="text">
-                     <string>Forward Limit Switch</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="0" column="3">
-                   <widget class="QRadioButton" name="radioButton_6">
-                    <property name="text">
-                     <string>HIGH</string>
-                    </property>
-                    <property name="checked">
-                     <bool>true</bool>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="0" column="1">
-                   <widget class="Line" name="line_4">
-                    <property name="orientation">
-                     <enum>Qt::Vertical</enum>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="0" column="4">
-                   <widget class="QRadioButton" name="radioButton_7">
-                    <property name="text">
-                     <string>LOW</string>
-                    </property>
-                    <property name="checked">
-                     <bool>false</bool>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="3">
-                   <widget class="QRadioButton" name="radioButton_4">
-                    <property name="text">
-                     <string>HIGH</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="0">
-                   <widget class="QCheckBox" name="checkBox">
-                    <property name="text">
-                     <string>Reverse Limit Switch</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="4">
-                   <widget class="QRadioButton" name="radioButton_5">
-                    <property name="text">
-                     <string>LOW</string>
-                    </property>
-                    <property name="checked">
-                     <bool>false</bool>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="0" column="2">
-                   <widget class="QLabel" name="label_14">
-                    <property name="text">
-                     <string>Polarity:</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="2">
-                   <widget class="QLabel" name="label_13">
-                    <property name="text">
-                     <string>Polarity:</string>
-                    </property>
-                   </widget>
-                  </item>
-                 </layout>
-                </widget>
-               </item>
-               <item row="0" column="1">
-                <widget class="QDoubleSpinBox" name="configure_current_limit_LED1_spin_box">
-                 <property name="toolTip">
-                  <string>Set the current limit (in amps) for LED channel #1</string>
-                 </property>
-                 <property name="specialValueText">
-                  <string/>
-                 </property>
-                 <property name="decimals">
-                  <number>6</number>
-                 </property>
-                 <property name="minimum">
-                  <double>0.000001000000000</double>
-                 </property>
-                 <property name="maximum">
-                  <double>9999999.000000000000000</double>
-                 </property>
-                 <property name="singleStep">
-                  <double>0.000001000000000</double>
-                 </property>
-                 <property name="value">
-                  <double>0.006944000000000</double>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="2">
-                <widget class="QLabel" name="configure_current_limit_LED3_label">
-                 <property name="text">
-                  <string>Units:</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="3">
-                <widget class="QDoubleSpinBox" name="configure_current_limit_LED4_spin_box">
-                 <property name="toolTip">
-                  <string>Set the current limit (in amps) for LED channel #4</string>
-                 </property>
-                 <property name="specialValueText">
-                  <string/>
-                 </property>
-                 <property name="minimum">
-                  <double>0.010000000000000</double>
-                 </property>
-                 <property name="value">
-                  <double>1.000000000000000</double>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="0">
-                <widget class="QLabel" name="configure_current_limit_LED1_label">
-                 <property name="text">
-                  <string>Resolution:</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="0">
-                <widget class="QLabel" name="configure_current_limit_LED2_label">
-                 <property name="text">
-                  <string>Backlash:</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="3" column="0" colspan="4">
-                <widget class="QFrame" name="frame_4">
-                 <property name="frameShape">
-                  <enum>QFrame::StyledPanel</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Raised</enum>
-                 </property>
-                 <layout class="QGridLayout" name="gridLayout_12" columnstretch="0,0,10">
-                  <property name="leftMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="topMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="rightMargin">
-                   <number>0</number>
-                  </property>
-                  <property name="bottomMargin">
-                   <number>0</number>
-                  </property>
-                  <item row="0" column="1">
-                   <widget class="QRadioButton" name="radioButton_8">
-                    <property name="text">
-                     <string>A then B</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="0" column="0">
-                   <widget class="QLabel" name="label_15">
-                    <property name="text">
-                     <string>Quadrature Encoder Forward Direction:</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="0" column="2">
-                   <widget class="QRadioButton" name="radioButton_9">
-                    <property name="text">
-                     <string>B then A</string>
-                    </property>
-                   </widget>
-                  </item>
-                 </layout>
-                </widget>
-               </item>
-              </layout>
-             </widget>
-            </item>
-            <item row="0" column="0">
-             <widget class="QGroupBox" name="configure_name_box">
-              <property name="toolTip">
-               <string>Set a unique name for the LED driver and each connected LED</string>
-              </property>
-              <property name="title">
-               <string>Laser</string>
-              </property>
-              <layout class="QGridLayout" name="gridLayout_20" columnstretch="0,0,0,0">
-               <item row="0" column="3">
-                <widget class="QLabel" name="configure_name_driver_serial_label2">
-                 <property name="text">
-                  <string>Disconnected</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="0">
-                <widget class="QLabel" name="configure_name_driver_label">
-                 <property name="toolTip">
-                  <string>Enter a unique name for the LED driver (optional)</string>
-                 </property>
-                 <property name="text">
-                  <string>Name:</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="2">
-                <widget class="QLabel" name="configure_name_driver_serial_label1">
-                 <property name="toolTip">
-                  <string>Serial number for selected LED driver.  This can be editted in the driver code - see manual for details.</string>
-                 </property>
-                 <property name="lineWidth">
-                  <number>10</number>
-                 </property>
-                 <property name="text">
-                  <string>Serial #:</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="1">
-                <widget class="QLineEdit" name="configure_name_driver_line_edit">
-                 <property name="toolTip">
-                  <string>Enter a unique name for the LED driver (optional)</string>
-                 </property>
-                 <property name="text">
-                  <string>Ultrafast laser</string>
-                 </property>
-                 <property name="maxLength">
-                  <number>15</number>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="0" colspan="4">
-                <widget class="QFrame" name="frame">
-                 <property name="frameShape">
-                  <enum>QFrame::StyledPanel</enum>
-                 </property>
-                 <property name="frameShadow">
-                  <enum>QFrame::Raised</enum>
-                 </property>
-                 <layout class="QGridLayout" name="gridLayout_8" columnstretch="0,0,10">
-                  <item row="0" column="0" colspan="3">
-                   <widget class="QCheckBox" name="checkBox_3">
-                    <property name="text">
-                     <string>Lock front panel when GUI is active</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="2">
-                   <widget class="QLabel" name="label_17">
-                    <property name="text">
-                     <string>seconds</string>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="1">
-                   <widget class="QSpinBox" name="spinBox_2">
-                    <property name="minimum">
-                     <number>1</number>
-                    </property>
-                    <property name="maximum">
-                     <number>100</number>
-                    </property>
-                    <property name="value">
-                     <number>10</number>
-                    </property>
-                   </widget>
-                  </item>
-                  <item row="1" column="0">
-                   <widget class="QCheckBox" name="checkBox_4">
-                    <property name="text">
-                     <string>Heartbeat Interval:</string>
-                    </property>
-                   </widget>
-                  </item>
-                 </layout>
-                </widget>
-               </item>
-              </layout>
-             </widget>
-            </item>
             <item row="2" column="0" colspan="2">
              <widget class="Line" name="configure_line1">
               <property name="orientation">
@@ -924,16 +551,6 @@ Shutter</string>
                <string>Alarm</string>
               </property>
               <layout class="QGridLayout" name="gridLayout_11">
-               <item row="1" column="0">
-                <widget class="QLabel" name="configure_audio_alarm_label">
-                 <property name="toolTip">
-                  <string>Set the tone volume for critical faults such as an over-temperature fault.</string>
-                 </property>
-                 <property name="text">
-                  <string>Alarm Volume</string>
-                 </property>
-                </widget>
-               </item>
                <item row="1" column="1">
                 <widget class="QSlider" name="configure_audio_alarm_slider">
                  <property name="toolTip">
@@ -956,36 +573,6 @@ Shutter</string>
                  </property>
                  <property name="tickInterval">
                   <number>16</number>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="0">
-                <widget class="QLabel" name="configure_audio_status_label">
-                 <property name="toolTip">
-                  <string>Set the tone volume for notifications such as verifying successful boot and successful upload.</string>
-                 </property>
-                 <property name="text">
-                  <string>Status Volume</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="2">
-                <widget class="QPushButton" name="configure_audio_status_button">
-                 <property name="toolTip">
-                  <string>Test status tone volume.</string>
-                 </property>
-                 <property name="text">
-                  <string>Test</string>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="2">
-                <widget class="QPushButton" name="configure_audio_alarm_button">
-                 <property name="toolTip">
-                  <string>Test alarm tone volume.</string>
-                 </property>
-                 <property name="text">
-                  <string>Test</string>
                  </property>
                 </widget>
                </item>
@@ -1014,6 +601,46 @@ Shutter</string>
                  </property>
                  <property name="tickInterval">
                   <number>16</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="configure_audio_alarm_label">
+                 <property name="toolTip">
+                  <string>Set the tone volume for critical faults such as an over-temperature fault.</string>
+                 </property>
+                 <property name="text">
+                  <string>Alarm Volume</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QPushButton" name="configure_audio_status_button">
+                 <property name="toolTip">
+                  <string>Test status tone volume.</string>
+                 </property>
+                 <property name="text">
+                  <string>Test</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="configure_audio_status_label">
+                 <property name="toolTip">
+                  <string>Set the tone volume for notifications such as verifying successful boot and successful upload.</string>
+                 </property>
+                 <property name="text">
+                  <string>Status Volume</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="2">
+                <widget class="QPushButton" name="configure_audio_alarm_button">
+                 <property name="toolTip">
+                  <string>Test alarm tone volume.</string>
+                 </property>
+                 <property name="text">
+                  <string>Test</string>
                  </property>
                 </widget>
                </item>
@@ -1101,6 +728,428 @@ Shutter</string>
               </layout>
              </widget>
             </item>
+            <item row="3" column="0">
+             <widget class="Line" name="configure_line2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QGroupBox" name="configure_name_box">
+              <property name="toolTip">
+               <string>Set a unique name for the LED driver and each connected LED</string>
+              </property>
+              <property name="title">
+               <string>Laser</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_20" columnstretch="0,0,0,0">
+               <item row="0" column="3">
+                <widget class="QLabel" name="configure_name_driver_serial_label2">
+                 <property name="text">
+                  <string>Disconnected</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="configure_name_driver_label">
+                 <property name="toolTip">
+                  <string>Enter a unique name for the LED driver (optional)</string>
+                 </property>
+                 <property name="text">
+                  <string>Name:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QLabel" name="configure_name_driver_serial_label1">
+                 <property name="toolTip">
+                  <string>Serial number for selected LED driver.  This can be editted in the driver code - see manual for details.</string>
+                 </property>
+                 <property name="lineWidth">
+                  <number>10</number>
+                 </property>
+                 <property name="text">
+                  <string>Serial #:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLineEdit" name="configure_name_driver_line_edit">
+                 <property name="toolTip">
+                  <string>Enter a unique name for the LED driver (optional)</string>
+                 </property>
+                 <property name="text">
+                  <string>Ultrafast laser</string>
+                 </property>
+                 <property name="maxLength">
+                  <number>15</number>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0" colspan="4">
+                <widget class="QFrame" name="frame">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_8" columnstretch="0,0,10">
+                  <item row="0" column="0" colspan="3">
+                   <widget class="QCheckBox" name="checkBox_3">
+                    <property name="text">
+                     <string>Lock front panel when GUI is active</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="2">
+                   <widget class="QLabel" name="label_17">
+                    <property name="text">
+                     <string>seconds</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0" colspan="2">
+                   <widget class="QCheckBox" name="checkBox_5">
+                    <property name="text">
+                     <string>Set laser to STANDBY when GUI is closed</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="1">
+                   <widget class="QSpinBox" name="spinBox_2">
+                    <property name="minimum">
+                     <number>1</number>
+                    </property>
+                    <property name="maximum">
+                     <number>100</number>
+                    </property>
+                    <property name="value">
+                     <number>10</number>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="0">
+                   <widget class="QCheckBox" name="checkBox_4">
+                    <property name="text">
+                     <string>Heartbeat Interval:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="0">
+                   <widget class="QLabel" name="label_23">
+                    <property name="text">
+                     <string>Laser serial baud rate:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="1">
+                   <widget class="QComboBox" name="comboBox">
+                    <property name="currentIndex">
+                     <number>4</number>
+                    </property>
+                    <property name="maxCount">
+                     <number>100</number>
+                    </property>
+                    <item>
+                     <property name="text">
+                      <string>1200</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>2400</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>4800</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>9600</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>19200</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>38400</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>57600</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>115200</string>
+                     </property>
+                    </item>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QGroupBox" name="configure_current_limit_box">
+              <property name="toolTip">
+               <string>Set the current limit for each LED channel.</string>
+              </property>
+              <property name="title">
+               <string>Attenuator</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_17" columnstretch="0,10,0,10,0">
+               <item row="1" column="1">
+                <widget class="QDoubleSpinBox" name="configure_current_limit_LED2_spin_box">
+                 <property name="toolTip">
+                  <string>Set the current limit (in amps) for LED channel #2</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                 <property name="specialValueText">
+                  <string/>
+                 </property>
+                 <property name="decimals">
+                  <number>6</number>
+                 </property>
+                 <property name="minimum">
+                  <double>0.010000000000000</double>
+                 </property>
+                 <property name="maximum">
+                  <double>360.000000000000000</double>
+                 </property>
+                 <property name="value">
+                  <double>2.000000000000000</double>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="2">
+                <widget class="QLabel" name="label_22">
+                 <property name="text">
+                  <string>Zero Offset:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="3">
+                <widget class="QDoubleSpinBox" name="doubleSpinBox_5"/>
+               </item>
+               <item row="5" column="0" colspan="5">
+                <widget class="QFrame" name="frame_2">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_9" columnstretch="0,0,0,0,10">
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item row="1" column="1">
+                   <widget class="Line" name="line_3">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QCheckBox" name="checkBox_2">
+                    <property name="text">
+                     <string>Forward Limit Switch</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="3">
+                   <widget class="QRadioButton" name="radioButton_6">
+                    <property name="text">
+                     <string>HIGH</string>
+                    </property>
+                    <property name="checked">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="Line" name="line_4">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="4">
+                   <widget class="QRadioButton" name="radioButton_7">
+                    <property name="text">
+                     <string>LOW</string>
+                    </property>
+                    <property name="checked">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="3">
+                   <widget class="QRadioButton" name="radioButton_4">
+                    <property name="text">
+                     <string>HIGH</string>
+                    </property>
+                    <property name="checked">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QCheckBox" name="checkBox">
+                    <property name="text">
+                     <string>Reverse Limit Switch</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="4">
+                   <widget class="QRadioButton" name="radioButton_5">
+                    <property name="text">
+                     <string>LOW</string>
+                    </property>
+                    <property name="checked">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="2">
+                   <widget class="QLabel" name="label_14">
+                    <property name="text">
+                     <string>Polarity:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="2">
+                   <widget class="QLabel" name="label_13">
+                    <property name="text">
+                     <string>Polarity:</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="4" column="0" colspan="5">
+                <widget class="QFrame" name="frame_4">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_12" columnstretch="0,0,10">
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="1">
+                   <widget class="QRadioButton" name="radioButton_8">
+                    <property name="text">
+                     <string>A then B</string>
+                    </property>
+                    <property name="checked">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_15">
+                    <property name="text">
+                     <string>Quadrature Encoder Forward Direction:</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="2">
+                   <widget class="QRadioButton" name="radioButton_9">
+                    <property name="text">
+                     <string>B then A</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="configure_current_limit_LED2_label">
+                 <property name="text">
+                  <string>Backlash:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="configure_current_limit_LED1_label">
+                 <property name="text">
+                  <string>Resolution:</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QDoubleSpinBox" name="configure_current_limit_LED1_spin_box">
+                 <property name="toolTip">
+                  <string>Set the current limit (in amps) for LED channel #1</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                 </property>
+                 <property name="specialValueText">
+                  <string/>
+                 </property>
+                 <property name="decimals">
+                  <number>6</number>
+                 </property>
+                 <property name="minimum">
+                  <double>0.000001000000000</double>
+                 </property>
+                 <property name="maximum">
+                  <double>360.000000000000000</double>
+                 </property>
+                 <property name="singleStep">
+                  <double>0.000001000000000</double>
+                 </property>
+                 <property name="value">
+                  <double>0.000521000000000</double>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2" colspan="2">
+                <widget class="QPushButton" name="pushButton_7">
+                 <property name="text">
+                  <string>Calibrate Resolution</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
            </layout>
           </widget>
          </widget>
@@ -1144,6 +1193,180 @@ Shutter</string>
         </item>
        </layout>
       </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Intensity Calibration</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_14" columnstretch="10,0,0,0">
+        <item row="1" column="1">
+         <widget class="QLabel" name="label_20">
+          <property name="text">
+           <string>@</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="text">
+           <string>Perform Calibration</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QSpinBox" name="spinBox_3">
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="minimum">
+           <number>680</number>
+          </property>
+          <property name="maximum">
+           <number>1080</number>
+          </property>
+          <property name="value">
+           <number>800</number>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QLabel" name="label_21">
+          <property name="text">
+           <string>nm</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="4">
+         <widget class="QTreeWidget" name="treeWidget">
+          <property name="columnCount">
+           <number>4</number>
+          </property>
+          <column>
+           <property name="text">
+            <string>Wavelength</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Angle (°)</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Power (%)</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Power (µW)</string>
+           </property>
+          </column>
+          <item>
+           <property name="text">
+            <string>Uncalibrated</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="2" column="0" colspan="4">
+         <widget class="PlotWidget" name="calibration_plot_window_2">
+          <property name="toolTip">
+           <string>Plot of LED current response to two 300 µs square-wave pulses, sampled at 1.1 MHz.</string>
+          </property>
+          <property name="sceneRect">
+           <rectf>
+            <x>0.000000000000000</x>
+            <y>0.000000000000000</y>
+            <width>0.000000000000000</width>
+            <height>0.000000000000000</height>
+           </rectf>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="calibration_tab">
+       <attribute name="title">
+        <string>PID Calibration</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_7" columnstretch="0,10,0,0,0,10,0,10">
+        <item row="1" column="6">
+         <widget class="QLabel" name="label_19">
+          <property name="text">
+           <string>Kd</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_16">
+          <property name="text">
+           <string>Kp</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="5">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="4">
+         <widget class="QLabel" name="label_18">
+          <property name="text">
+           <string>Ki</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="7">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="value">
+           <double>0.025000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0" colspan="8">
+         <widget class="PlotWidget" name="calibration_plot_window">
+          <property name="toolTip">
+           <string>Plot of LED current response to two 300 µs square-wave pulses, sampled at 1.1 MHz.</string>
+          </property>
+          <property name="sceneRect">
+           <rectf>
+            <x>0.000000000000000</x>
+            <y>0.000000000000000</y>
+            <width>0.000000000000000</width>
+            <height>0.000000000000000</height>
+           </rectf>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0" colspan="8">
+         <widget class="QPushButton" name="calibration_run_button">
+          <property name="toolTip">
+           <string>Press to start/stop LED driver and plot of resulting LED current.</string>
+          </property>
+          <property name="text">
+           <string>Test</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" colspan="3">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+          <property name="decimals">
+           <number>4</number>
+          </property>
+          <property name="maximum">
+           <double>9999.000000000000000</double>
+          </property>
+          <property name="value">
+           <double>255.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
       <widget class="QWidget" name="tab">
        <attribute name="title">
         <string>Terminal</string>
@@ -1163,38 +1386,6 @@ Shutter</string>
         </property>
         <item row="0" column="0">
          <widget class="QPlainTextEdit" name="plainTextEdit"/>
-        </item>
-       </layout>
-      </widget>
-      <widget class="QWidget" name="calibration_tab">
-       <attribute name="title">
-        <string>Calibration</string>
-       </attribute>
-       <layout class="QGridLayout" name="gridLayout_7" columnstretch="0,0">
-        <item row="0" column="0" colspan="2">
-         <widget class="PlotWidget" name="calibration_plot_window">
-          <property name="toolTip">
-           <string>Plot of LED current response to two 300 µs square-wave pulses, sampled at 1.1 MHz.</string>
-          </property>
-          <property name="sceneRect">
-           <rectf>
-            <x>0.000000000000000</x>
-            <y>0.000000000000000</y>
-            <width>0.000000000000000</width>
-            <height>0.000000000000000</height>
-           </rectf>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0" colspan="2">
-         <widget class="QPushButton" name="calibration_run_button">
-          <property name="toolTip">
-           <string>Press to start/stop LED driver and plot of resulting LED current.</string>
-          </property>
-          <property name="text">
-           <string>Run</string>
-          </property>
-         </widget>
         </item>
        </layout>
       </widget>
@@ -1221,7 +1412,7 @@ Shutter</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>542</width>
+     <width>540</width>
      <height>21</height>
     </rect>
    </property>
@@ -1433,8 +1624,8 @@ Shutter</string>
   </property>
  </designerdata>
  <buttongroups>
+  <buttongroup name="configure_indication_group"/>
   <buttongroup name="main_channel_button_group"/>
   <buttongroup name="main_intensity_button_group"/>
-  <buttongroup name="configure_indication_group"/>
  </buttongroups>
 </ui>
