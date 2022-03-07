@@ -3,10 +3,12 @@
 #include <Encoder.h>
 #include <EEPROM.h>
 #include <TimeLib.h> //Set RTC time and get time strings
+#pragma pack(1) //Remove alignment padding bytes in structs - https://forum.pjrc.com/threads/50536-problem-with-union-in-Teensy-3-5
+const long HOME_POSITION = -2000;
 
 //////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT
 
-#pragma pack(1) //Remove alignment padding bytes in structs - https://forum.pjrc.com/threads/50536-problem-with-union-in-Teensy-3-5
+
 struct configurationStruct{
   uint8_t prefix;
   char driver_name[16]; //Name of LED driver: "default name"
@@ -323,12 +325,12 @@ void setup() {
 //  for(size_t a=0; a==status_index; a++) checkStatus(); //Perform full round of status checks to get starting status of driver
   pin.configurePins();
   while(!Serial); //Wait for a serial connection
-  Serial.print("Encoder start at: ");
-  Serial.println(encoder.read());
   playAlarmTone();
-
-  
-  
+  Serial.println("Homing attenuator...");
+  homePosition();
+  Serial.println("Moving to zero position...");
+  moveToPosition(0, false);
+  Serial.println("Ready!");
 }
 
 uint32_t d = 10;
@@ -336,24 +338,50 @@ uint32_t d = 10;
 void loop() {
   long pos;
   float deg;
-  if(Serial.available()){
-    deg = Serial.parseFloat();
-    while(Serial.available()) Serial.read();
-    Serial.println(pos);
-    pos = (long) (-1*deg/ENCODER_RES); 
-    moveToPosition(pos, false);
-    digitalWriteFast(pin.MOTOR[0], LOW);
+  while(Serial){
+    if(Serial.available()){
+      deg = Serial.parseFloat();
+      while(Serial.available()) Serial.read();
+      if(Serial){
+        Serial.print("Moving to ");
+        Serial.print(deg);
+        Serial.println("...");
+      }
+      pos = (long) (1*deg/ENCODER_RES); 
+      moveToPosition(pos, false);
+      if(Serial) Serial.println("Ready!");
+    }
   }
-//  interrupts();
-//  if(sync.s.sync_output_channel) digitalWriteFast(pin.OUTPUTS[sync.s.sync_output_channel-1], LOW); //Set sync output low when in manual mode
-//  update_flag = false; //Reset update flag on return on main loop
-//  if(current_status.s.mode) checkStatus();
-//  if(!current_status.s.mode) syncRouter();
-//  delayMicroseconds(10);
+  delay(5000);
+  while(!Serial);
+  playAlarmTone();
+  if(Serial) Serial.println("Homing attenuator...");
+  homePosition();
+  if(Serial) Serial.println("Moving to zero position...");
+  moveToPosition(0, false);
+  if(Serial) Serial.println("Ready!");
+}
+
+void homePosition(){
+  digitalWriteFast(pin.MOTOR[0], HIGH);
+  digitalWriteFast(pin.MOTOR[1], LOW);
+  delay(500);
+  digitalWriteFast(pin.MOTOR[0], LOW);
+  digitalWriteFast(pin.MOTOR[1], HIGH);
+  while(digitalReadFast(pin.LIMIT[0]) && Serial);
+  digitalWriteFast(pin.MOTOR[0], HIGH);
+  digitalWriteFast(pin.MOTOR[1], LOW);
+  while(!digitalReadFast(pin.LIMIT[0]) && Serial);
+  encoder.write(HOME_POSITION);
+  digitalWriteFast(pin.MOTOR[0], LOW);
+  digitalWriteFast(pin.MOTOR[1], LOW);  
 }
 
 void moveToPosition(long final_position, bool backlash){
   if(!backlash && final_position < encoder.read() && BACKLASH_CORRECTION > 0) moveToPosition(final_position-BACKLASH_CORRECTION, true);
+  else if(!backlash && final_position < encoder.read()+BACKLASH_CORRECTION && BACKLASH_CORRECTION > 0){
+    moveToPosition(encoder.read()-BACKLASH_CORRECTION, true);
+  }
   long current_position = encoder.read();
   elapsedMillis interval_timer;
   elapsedMicros total_timer;
@@ -369,7 +397,7 @@ void moveToPosition(long final_position, bool backlash){
   prev_error = 0;
 
   
-  while(encoder.read() != final_position){
+  while(encoder.read() != final_position && Serial){
     if(interval_timer > STUCK_MOTOR_INTERVAL || current_position != encoder.read()){
       calculatePID(final_position);
       if(interval_timer >= STUCK_MOTOR_INTERVAL){ //Override motor power if motor is not spinning
@@ -377,14 +405,14 @@ void moveToPosition(long final_position, bool backlash){
       }
       interval_timer = 0;
       current_position = encoder.read();
-      Serial.print("Output: ");
-      Serial.print(control_out);
-      Serial.print(", Position: ");
-      Serial.print(-1*encoder.read()*ENCODER_RES);
-      Serial.print("°, Motor: ");
-      Serial.print(motor_power);
-      Serial.print(", Time: ");
-      Serial.println(total_timer);
+//      Serial.print("Output: ");
+//      Serial.print(control_out);
+//      Serial.print(", Position: ");
+//      Serial.print(-1*encoder.read()*ENCODER_RES);
+//      Serial.print("°, Motor: ");
+//      Serial.print(motor_power);
+//      Serial.print(", Time: ");
+//      Serial.println(total_timer);
       if(control_out > 0){
         digitalWriteFast(pin.MOTOR[0], LOW);
         analogWrite(pin.MOTOR[1], motor_power);

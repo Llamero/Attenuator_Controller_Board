@@ -44,7 +44,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="main_tab">
        <property name="toolTip">
@@ -1281,27 +1281,27 @@ Shutter</string>
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="tab_2">
+      <widget class="QWidget" name="intensity_tab">
        <attribute name="title">
         <string>Intensity Calibration</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_14" columnstretch="10,0,0,0">
         <item row="1" column="1">
-         <widget class="QLabel" name="label_20">
+         <widget class="QLabel" name="intensity_label1">
           <property name="text">
            <string>@</string>
           </property>
          </widget>
         </item>
         <item row="1" column="0">
-         <widget class="QPushButton" name="pushButton_6">
+         <widget class="QPushButton" name="intensity_button">
           <property name="text">
            <string>Perform Calibration</string>
           </property>
          </widget>
         </item>
         <item row="1" column="2">
-         <widget class="QSpinBox" name="spinBox_3">
+         <widget class="QSpinBox" name="intensity_spinbox">
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
           </property>
@@ -1317,14 +1317,14 @@ Shutter</string>
          </widget>
         </item>
         <item row="1" column="3">
-         <widget class="QLabel" name="label_21">
+         <widget class="QLabel" name="intensity_label2">
           <property name="text">
            <string>nm</string>
           </property>
          </widget>
         </item>
         <item row="0" column="0" colspan="4">
-         <widget class="QTreeWidget" name="treeWidget">
+         <widget class="QTreeWidget" name="intensity_tree">
           <property name="columnCount">
            <number>4</number>
           </property>
@@ -1356,7 +1356,7 @@ Shutter</string>
          </widget>
         </item>
         <item row="2" column="0" colspan="4">
-         <widget class="PlotWidget" name="calibration_plot_window_2">
+         <widget class="PlotWidget" name="intensity_plot">
           <property name="toolTip">
            <string>Plot of LED current response to two 300 µs square-wave pulses, sampled at 1.1 MHz.</string>
           </property>
@@ -1372,41 +1372,41 @@ Shutter</string>
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="calibration_tab">
+      <widget class="QWidget" name="pid_tab">
        <attribute name="title">
         <string>PID Calibration</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_7" columnstretch="0,10,0,0,0,10,0,10">
         <item row="1" column="6">
-         <widget class="QLabel" name="label_19">
+         <widget class="QLabel" name="pid_label3">
           <property name="text">
            <string>Kd</string>
           </property>
          </widget>
         </item>
         <item row="1" column="0">
-         <widget class="QLabel" name="label_16">
+         <widget class="QLabel" name="pid_label1">
           <property name="text">
            <string>Kp</string>
           </property>
          </widget>
         </item>
         <item row="1" column="5">
-         <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+         <widget class="QDoubleSpinBox" name="pid_ki_spinbox">
           <property name="decimals">
            <number>4</number>
           </property>
          </widget>
         </item>
         <item row="1" column="4">
-         <widget class="QLabel" name="label_18">
+         <widget class="QLabel" name="pid_label2">
           <property name="text">
            <string>Ki</string>
           </property>
          </widget>
         </item>
         <item row="1" column="7">
-         <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+         <widget class="QDoubleSpinBox" name="pid_kd_spinbox">
           <property name="decimals">
            <number>4</number>
           </property>
@@ -1416,7 +1416,7 @@ Shutter</string>
          </widget>
         </item>
         <item row="0" column="0" colspan="8">
-         <widget class="PlotWidget" name="calibration_plot_window">
+         <widget class="PlotWidget" name="pid_plot">
           <property name="toolTip">
            <string>Plot of LED current response to two 300 µs square-wave pulses, sampled at 1.1 MHz.</string>
           </property>
@@ -1431,7 +1431,7 @@ Shutter</string>
          </widget>
         </item>
         <item row="4" column="0" colspan="8">
-         <widget class="QPushButton" name="calibration_run_button">
+         <widget class="QPushButton" name="pid_test_button">
           <property name="toolTip">
            <string>Press to start/stop LED driver and plot of resulting LED current.</string>
           </property>
@@ -1441,7 +1441,7 @@ Shutter</string>
          </widget>
         </item>
         <item row="1" column="1" colspan="3">
-         <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+         <widget class="QDoubleSpinBox" name="pid_kp_spinbox">
           <property name="decimals">
            <number>4</number>
           </property>
@@ -1455,7 +1455,7 @@ Shutter</string>
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="tab">
+      <widget class="QWidget" name="terminal_tab">
        <attribute name="title">
         <string>Terminal</string>
        </attribute>
@@ -1473,7 +1473,7 @@ Shutter</string>
          <number>9</number>
         </property>
         <item row="0" column="0">
-         <widget class="QPlainTextEdit" name="plainTextEdit"/>
+         <widget class="QPlainTextEdit" name="termina_textedit"/>
         </item>
        </layout>
       </widget>
@@ -1711,7 +1711,7 @@ Shutter</string>
  </designerdata>
  <buttongroups>
   <buttongroup name="configure_indication_group"/>
-  <buttongroup name="main_channel_button_group"/>
   <buttongroup name="main_intensity_button_group"/>
+  <buttongroup name="main_channel_button_group"/>
  </buttongroups>
 </ui>
