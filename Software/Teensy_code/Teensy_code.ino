@@ -4,7 +4,7 @@
 #include <EEPROM.h>
 #include <TimeLib.h> //Set RTC time and get time strings
 #pragma pack(1) //Remove alignment padding bytes in structs - https://forum.pjrc.com/threads/50536-problem-with-union-in-Teensy-3-5
-const long HOME_POSITION = -2000;
+const float HOME_POSITION = -2;
 
 //////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT//////////////STRUCT
 
@@ -363,6 +363,7 @@ void loop() {
 }
 
 void homePosition(){
+  long home_position = (long) (1*HOME_POSITION/ENCODER_RES);
   digitalWriteFast(pin.MOTOR[0], HIGH);
   digitalWriteFast(pin.MOTOR[1], LOW);
   delay(500);
@@ -372,7 +373,7 @@ void homePosition(){
   digitalWriteFast(pin.MOTOR[0], HIGH);
   digitalWriteFast(pin.MOTOR[1], LOW);
   while(!digitalReadFast(pin.LIMIT[0]) && Serial);
-  encoder.write(HOME_POSITION);
+  encoder.write(home_position);
   digitalWriteFast(pin.MOTOR[0], LOW);
   digitalWriteFast(pin.MOTOR[1], LOW);  
 }
