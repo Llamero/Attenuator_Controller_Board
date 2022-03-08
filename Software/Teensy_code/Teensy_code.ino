@@ -352,7 +352,6 @@ void loop() {
       if(Serial) Serial.println("Ready!");
     }
   }
-  delay(5000);
   while(!Serial);
   playAlarmTone();
   if(Serial) Serial.println("Homing attenuator...");
@@ -363,22 +362,30 @@ void loop() {
 }
 
 void homePosition(){
+  pin.configurePins();
   long home_position = (long) (1*HOME_POSITION/ENCODER_RES);
-  digitalWriteFast(pin.MOTOR[0], HIGH);
-  digitalWriteFast(pin.MOTOR[1], LOW);
-  delay(500);
+  boolean limit;
+  limit = digitalReadFast(pin.LIMIT[0]);
+  if(Serial) Serial.println("Homing attenuator: Step 1...");
   digitalWriteFast(pin.MOTOR[0], LOW);
   digitalWriteFast(pin.MOTOR[1], HIGH);
-  while(digitalReadFast(pin.LIMIT[0]) && Serial);
+  while(limit && Serial){
+    limit = digitalReadFast(pin.LIMIT[0]);
+  }
+  if(Serial) Serial.println("Homing attenuator: Step 2...");
   digitalWriteFast(pin.MOTOR[0], HIGH);
   digitalWriteFast(pin.MOTOR[1], LOW);
-  while(!digitalReadFast(pin.LIMIT[0]) && Serial);
+  while(!limit && Serial){
+    limit = digitalReadFast(pin.LIMIT[0]);
+  }
+  if(Serial) Serial.println("Homing attenuator: Step 3...");
   encoder.write(home_position);
   digitalWriteFast(pin.MOTOR[0], LOW);
   digitalWriteFast(pin.MOTOR[1], LOW);  
 }
 
 void moveToPosition(long final_position, bool backlash){
+  pin.configurePins();
   if(!backlash && final_position < encoder.read() && BACKLASH_CORRECTION > 0) moveToPosition(final_position-BACKLASH_CORRECTION, true);
   else if(!backlash && final_position < encoder.read()+BACKLASH_CORRECTION && BACKLASH_CORRECTION > 0){
     moveToPosition(encoder.read()-BACKLASH_CORRECTION, true);
